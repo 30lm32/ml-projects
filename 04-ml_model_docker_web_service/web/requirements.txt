@@ -1,0 +1,6 @@
+scipy
+numpy
+pandas
+scikit-learn
+flask
+redis

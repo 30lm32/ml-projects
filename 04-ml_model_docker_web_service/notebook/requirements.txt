@@ -1,0 +1,10 @@
+scipy
+numpy
+pandas
+scikit-learn
+imbalanced-learn
+ipykernel
+jupyter
+matplotlib
+seaborn
+redis

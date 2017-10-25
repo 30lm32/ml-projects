@@ -1,0 +1,18 @@
+version: '2'
+services:
+  notebook:
+    build: ./notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./notebook:/code
+      - ./resources:/resources
+  web:
+    build: ./web
+    ports:
+     - "5000:5000"
+    volumes:
+     - ./web:/code
+     - ./resources:/resources
+  redis:
+    image: "redis:alpine"

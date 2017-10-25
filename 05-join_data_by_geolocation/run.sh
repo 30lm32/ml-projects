@@ -1,0 +1,1 @@
+python solution.py -i sample_data.csv -o result.csv -d 0.1 -j 10

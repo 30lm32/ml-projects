@@ -1,0 +1,54 @@
+During that challenge I did two different trainings. However, I submitted my best result which is my second training. So, I think that to review the whole results well, the following extra explanation will be better for reviewer.
+
+My submitted code is building a model with respect to "EarlyStopping(monitor='val_loss', patience=3)". It means that after the third worst result based on 'val_loss', the training phase was terminated. The best model is M1 = [loss: 0.2716 - acc: 0.9175 - val_loss: 0.8367 - val_acc: 0.7611] I got in the first training which I forgot to forward to you the below. So, Here you can find my first training results. If you run my code once, you will get same results roughly since you don't have any initial calculated weights.
+
+=================================== 1st training ===================================
+Train on 29458 samples, validate on 3274 samples
+Epoch 1/100
+29458/29458 [==============================] - 134s - loss: 2.3073 - acc: 0.1970 - val_loss: 2.3132 - val_acc: 0.1735
+Epoch 2/100
+29458/29458 [==============================] - 136s - loss: 2.0656 - acc: 0.3058 - val_loss: 1.7405 - val_acc: 0.4291
+Epoch 3/100
+29458/29458 [==============================] - 163s - loss: 1.7875 - acc: 0.4097 - val_loss: 1.6554 - val_acc: 0.4404
+Epoch 4/100
+29458/29458 [==============================] - 149s - loss: 1.5521 - acc: 0.4861 - val_loss: 1.6295 - val_acc: 0.4908
+Epoch 5/100
+29458/29458 [==============================] - 151s - loss: 1.3739 - acc: 0.5496 - val_loss: 1.4229 - val_acc: 0.5516
+Epoch 6/100
+29458/29458 [==============================] - 147s - loss: 1.1621 - acc: 0.6194 - val_loss: 1.2519 - val_acc: 0.6045
+Epoch 7/100
+29458/29458 [==============================] - 164s - loss: 0.9966 - acc: 0.6749 - val_loss: 1.1696 - val_acc: 0.6222
+Epoch 8/100
+29458/29458 [==============================] - 153s - loss: 0.8049 - acc: 0.7390 - val_loss: 1.0118 - val_acc: 0.6848
+Epoch 9/100
+29458/29458 [==============================] - 151s - loss: 0.6382 - acc: 0.7954 - val_loss: 0.9054 - val_acc: 0.7208
+Epoch 10/100
+29458/29458 [==============================] - 151s - loss: 0.4903 - acc: 0.8453 - val_loss: 0.9261 - val_acc: 0.7202
+Epoch 11/100
+29458/29458 [==============================] - 154s - loss: 0.3685 - acc: 0.8857 - val_loss: 0.8590 - val_acc: 0.7459
+Epoch 12/100
+29458/29458 [==============================] - 156s - loss: 0.2716 - acc: 0.9175 - val_loss: 0.8367 - val_acc: 0.7611
+Epoch 13/100
+29458/29458 [==============================] - 153s - loss: 0.2017 - acc: 0.9411 - val_loss: 0.9164 - val_acc: 0.7569
+Epoch 14/100
+29458/29458 [==============================] - 152s - loss: 0.1575 - acc: 0.9546 - val_loss: 0.8574 - val_acc: 0.7804
+Epoch 15/100
+29458/29458 [==============================] - 152s - loss: 0.1194 - acc: 0.9644 - val_loss: 0.9226 - val_acc: 0.7670
+Epoch 16/100
+29458/29458 [==============================] - 154s - loss: 0.0987 - acc: 0.9731 - val_loss: 0.9343 - val_acc: 0.7795
+
+You only have second training results, below, since during this training I used best model from first training, this second training I submitted in the notebook file is using the previous calculated weights (M1) from the first training. That is the reason why this second training is starting high 'val_acc' and low 'val_loss' values
+
+According to this whole results, the test train file (ytest.txt) I submitted was labeled by the best model which is calculated in the second training (M2 = [loss: 0.2088 - acc: 0.9372 - val_loss: 0.8074 - val_acc: 0.7755]) on top of first training (M1). 
+
+=================================== 2nd training ===================================
+Epoch 1/100
+29458/29458 [==============================] - 243s - loss: 0.2088 - acc: 0.9372 - val_loss: 0.8074 - val_acc: 0.7755
+Epoch 2/100
+29458/29458 [==============================] - 139s - loss: 0.1673 - acc: 0.9509 - val_loss: 0.8821 - val_acc: 0.7688
+Epoch 3/100
+29458/29458 [==============================] - 129s - loss: 0.1385 - acc: 0.9594 - val_loss: 0.8535 - val_acc: 0.7783
+Epoch 4/100
+29458/29458 [==============================] - 131s - loss: 0.1155 - acc: 0.9666 - val_loss: 0.8926 - val_acc: 0.7776
+Epoch 5/100
+29458/29458 [==============================] - 130s - loss: 0.0961 - acc: 0.9734 - val_loss: 0.9319 - val_acc: 0.7770
