@@ -8,17 +8,17 @@ Please, scroll down to see the detail of projects and their repo's links.
 
 ## Random Forest Classification (PySpark)
 
-|__Name__|__Methods__|__Frameworks__|__Link__|
+|__Problem__|__Methods__|__Frameworks__|__Link__|
 |-|-|-|-|
-|a|`Random Forest Classifier`|`Spark (PySpark)`, `Sklearn`, `Pandas`, `Seaborn`| https://github.com/erdiolmezogullari/ml-random-forest-pyspark|
+|`N/A`|`Random Forest Classifier`|`Spark (PySpark)`, `Sklearn`, `Pandas`, `Seaborn`| https://github.com/erdiolmezogullari/ml-random-forest-pyspark|
 
 You can find a bunch of sample code related to how you can use PySpark. In this repo, Spark's MLlib (Random Forest Classifier), and Pipeline via PySpark.
 
 ## Which one does it catch whole* SPAM SMS?
 
-|__Name__|__Methods__|__Frameworks__|__Link__|
+|__Problem__|__Methods__|__Frameworks__|__Link__|
 |-|-|-|-|
-|a|`Naive Bayesian`, `SVM`, `Random Forest Classifier`, `Deep Learning - LSTM`|`Sklearn`, `Keras`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-spam-sms-classification|
+|`N/A`|`Naive Bayesian`, `SVM`, `Random Forest Classifier`, `Deep Learning - LSTM`|`Sklearn`, `Keras`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-spam-sms-classification|
 
 In this project, We applied supervised learning (classification) algorithms and deep learning (LSTM).
 
@@ -37,9 +37,9 @@ At the end of each processing by different classifier, we plotted [confusion mat
 
 ## Which novel do I belong To?
 
-|__Name__|__Methods__|__Frameworks__|__Link__|
+|__Problem__|__Methods__|__Frameworks__|__Link__|
 |-|-|-|-|
-|a|`Deep Learning - LSTM`|`Sklearn`, `Keras`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel|
+|`N/A`|`Deep Learning - LSTM`|`Sklearn`, `Keras`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel|
 
 In this project, you can find a machine learning model that classifies a given arbitrary context as belonging to out of the following 12 novels:
 
@@ -61,9 +61,9 @@ after creating `word2vec` by using `Gensim`.
 
 ## Why do customers choose and book specific vehicles?
 
-|__Name__|__Methods__|__Frameworks__|__Link__|
+|__Problem__|__Methods__|__Frameworks__|__Link__|
 |-|-|-|-|
-|a|`Random Forest Classifier`|`Sklearn`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-imbalanced-car-booking-data|
+|`N/A`|`Random Forest Classifier`|`Sklearn`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-imbalanced-car-booking-data|
 
 We built a machine learning model that answers the question, -what is the customer preference- on car booking dataset.
 
@@ -71,27 +71,30 @@ We explored the dataset by using `Seaborn`, and transformed, derived new feature
 
 In addition, the shape of dataset is `imbalanced`. It means that the target variable's distribution is skewed. To overcome that challenge, there are already defined a few different techniques (e.g. `over/under resampling techniques`) and intuitive approaches. We try to solve that problem using resampling techniques, as well.
 
-## 03-time_series_analyis_on_sales_data [will be updated]
+## Forecasting impact of promos (promo1, promo2) on sales in Germany, Austria, and France
 
-|__Name__|__Methods__|__Frameworks__|__Link__|
+|__Problem__|__Methods__|__Frameworks__|__Link__|
 |-|-|-|-|
-|a|`Random Forest Regression`|`statsmodel`, `pandas`, `...`|https://github.com/erdiolmezogullari/ml-time-series-analysis-on-sales-data|
+|`N/A`|`Random Forest Regression`|`statsmodels`, `pandas`, `...`|https://github.com/erdiolmezogullari/ml-time-series-analysis-on-sales-data|
 
+There are stores are giving two type of promos such as radio, TV corresponding to promo1 and promo2 so that they want to increase their sales across Germany, Austria, and France. However, they don't have any idea about which promo is sufficient to do it. So, the impact of promos on their sales are important roles on their preference.
 
-In this project, we applied `time series decomposition techniques` and `random forest algorithm` to build a ML model
+To define well-defined promo strategy, we once need to analysis data in terms of impacts of promos. In that case, since data is based on time series, we once referred to use  `time series decomposition`. After we decomposed `observed` data into `trend`, `seasonal`, and `residual` components, We exposed the impact of promos clearly to make a decision which promo is better in each country.
+
+In addition, we used `Random Forest Regression` in this forecasting problem to boost our decision. 
 
 ## 04-ml_model_docker_web_service [will be updated]
 
-|__Name__|__Methods__|__Frameworks__|__Link__|
+|__Problem__|__Methods__|__Frameworks__|__Link__|
 |-|-|-|-|
-|a|`Random Forest Classifier`|`NA`|https://github.com/erdiolmezogullari/ml-dockerized-microservice|
+|`N/A`|`Random Forest Classifier`|`NA`|https://github.com/erdiolmezogullari/ml-dockerized-microservice|
 
 In this project, a `ML micro-service` was developed by using `REST` and `Docker` after building a ML model using `random forest algoritm`
 
 ## 05-join_data_by_geolocation [will be updated]
 
-|__Name__|__Methods__|__Frameworks__|__Link__|
+|__Problem__|__Methods__|__Frameworks__|__Link__|
 |-|-|-|-|
-|a|`Random Forest Classifier`|`Kd-tree`|https://github.com/erdiolmezogullari/ml-join-spatial-data|
+|`N/A`|`Random Forest Classifier`|`Kd-tree`|https://github.com/erdiolmezogullari/ml-join-spatial-data|
 
 In this project, two different data set which have location based `(GPS)` feature were joined `Kd-tree`.
