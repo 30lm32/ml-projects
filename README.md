@@ -1,3 +1,9 @@
+
+Updated: 04-16-18
+
+Please, scroll down to see the detail of projects and github repo's links.
+
+
 ###  00-spam_sms_classification
 -------------------------------
 Check out its repo on Github: https://github.com/erdiolmezogullari/ml-spam-sms-classification
