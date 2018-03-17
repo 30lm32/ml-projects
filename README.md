@@ -6,10 +6,17 @@ In this repo, you will find a bunch of different machine learning projects I per
 
 Please, scroll down to see the detail of projects and their repo's links.
 
-## Which one does it catch whole* SPAM SMS?
-Check out: https://github.com/erdiolmezogullari/ml-spam-sms-classification
+## Random Forest Classification (PySpark)
+    Check out: https://github.com/erdiolmezogullari/ml-random-forest-pyspark
+    Methods: `Random Forest Classifier`
+    Frameworks: `Spark (PySpark)`, `Sklearn`, `Pandas`, `Seaborn`
 
-Methods: `Naive Bayesian`, `SVM`, `Random Forest Classifier`, `Deep Learning - LSTM`
+You can find a bunch of sample code related to how you can use PySpark. In this repo, Spark's MLlib (Random Forest Classifier), and Pipeline via PySpark.
+
+## Which one does it catch whole* SPAM SMS?
+    Check out: https://github.com/erdiolmezogullari/ml-spam-sms-classification
+    Methods: `Naive Bayesian`, `SVM`, `Random Forest Classifier`, `Deep Learning - LSTM`
+    Frameworks: `Sklearn`, `Keras`, `Pandas`, `Seaborn`
 
 In this project, We applied supervised learning (classification) algorithms and deep learning (LSTM).
 
@@ -27,11 +34,11 @@ Our deep learning architecture we used is based on [LSTM](https://en.wikipedia.o
 At the end of each processing by different classifier, we plotted [confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix) to compare which one the best classifier for filtering SPAM SMS.
 
 ## Which novel do I belong To?
-Check out: https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel
+    Check out: https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel
+    Methods: `Deep Learning - LSTM`
+    Frameworks: `Sklearn`, `Keras`, `Pandas`, `Seaborn`
 
-Methods: `Deep Learning - LSTM`
-
-In this project, you are expected to learn a Machine Learning model that classifies a given line as belonging to one of the following 12 novels:
+In this project, you can find a machine learning model that classifies a given arbitrary context as belonging to out of the following 12 novels:
 
 0. alice_in_wonderland
 1. dracula
@@ -46,13 +53,18 @@ In this project, you are expected to learn a Machine Learning model that classif
 10. talw_of_two_cities
 11. tom_sawyer
 
-`Deeplearing (LSTM)` on top of `Keras (Tensorflow)` is performing the novel corpus data to solve this problem 
+`Deeplearing (LSTM)` on top of `Keras (Tensorflow)` is performing the novel corpus data
 after creating `word2vec` by using `Gensim`.
 
-## 02-imbalanced_car_booking_data [will be updated]
-Check out: https://github.com/erdiolmezogullari/ml-imbalanced-car-booking-data
+## Why do customers choose and book specific vehicles?
+    Check out: https://github.com/erdiolmezogullari/ml-imbalanced-car-booking-data
+    Methods: `Random Forest Classifier`
 
-In this project, we tried to solve `imbalanced data` using `over/under resampling techniques`
+We built a machine learning model that answers the question, -what is the customer preference- on car booking dataset.
+
+We explored the dataset by using `Seaborn`, and transformed, derived new features necessary.
+
+In addition, the shape of dataset is `imbalanced`. It means that the target variable's distribution is skewed. To overcome that challenge, there are already defined a few different techniques (e.g. `over/under resampling techniques`) and intuitive approaches. We try to solve that problem using resampling techniques, as well.
 
 ## 03-time_series_analyis_on_sales_data [will be updated]
 Check out: https://github.com/erdiolmezogullari/ml-time-series-analysis-on-sales-data
