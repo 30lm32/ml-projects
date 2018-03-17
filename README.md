@@ -41,7 +41,6 @@ At the end of each processing by different classifier, we plotted [confusion mat
 |-|-|-|-|
 |a|`Deep Learning - LSTM`|`Sklearn`, `Keras`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel|
 
-
 In this project, you can find a machine learning model that classifies a given arbitrary context as belonging to out of the following 12 novels:
 
 0. alice_in_wonderland
@@ -61,8 +60,10 @@ In this project, you can find a machine learning model that classifies a given a
 after creating `word2vec` by using `Gensim`.
 
 ## Why do customers choose and book specific vehicles?
-__Check out:__ https://github.com/erdiolmezogullari/ml-imbalanced-car-booking-data
-__Methods:__ `Random Forest Classifier`
+
+|__Name__|__Methods__|__Frameworks__|__Link__|
+|-|-|-|-|
+|a|`Random Forest Classifier`|`Sklearn`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-imbalanced-car-booking-data|
 
 We built a machine learning model that answers the question, -what is the customer preference- on car booking dataset.
 
@@ -71,16 +72,26 @@ We explored the dataset by using `Seaborn`, and transformed, derived new feature
 In addition, the shape of dataset is `imbalanced`. It means that the target variable's distribution is skewed. To overcome that challenge, there are already defined a few different techniques (e.g. `over/under resampling techniques`) and intuitive approaches. We try to solve that problem using resampling techniques, as well.
 
 ## 03-time_series_analyis_on_sales_data [will be updated]
-__Check out:__ https://github.com/erdiolmezogullari/ml-time-series-analysis-on-sales-data
+
+|__Name__|__Methods__|__Frameworks__|__Link__|
+|-|-|-|-|
+|a|`Random Forest Regression`|`statsmodel`, `pandas`, `...`|https://github.com/erdiolmezogullari/ml-time-series-analysis-on-sales-data|
+
 
 In this project, we applied `time series decomposition techniques` and `random forest algorithm` to build a ML model
 
 ## 04-ml_model_docker_web_service [will be updated]
-__Check out:__ https://github.com/erdiolmezogullari/ml-dockerized-microservice
+
+|__Name__|__Methods__|__Frameworks__|__Link__|
+|-|-|-|-|
+|a|`Random Forest Classifier`|`NA`|https://github.com/erdiolmezogullari/ml-dockerized-microservice|
 
 In this project, a `ML micro-service` was developed by using `REST` and `Docker` after building a ML model using `random forest algoritm`
 
 ## 05-join_data_by_geolocation [will be updated]
-__Check out:__ https://github.com/erdiolmezogullari/ml-join-spatial-data
+
+|__Name__|__Methods__|__Frameworks__|__Link__|
+|-|-|-|-|
+|a|`Random Forest Classifier`|`Kd-tree`|https://github.com/erdiolmezogullari/ml-join-spatial-data|
 
 In this project, two different data set which have location based `(GPS)` feature were joined `Kd-tree`.
