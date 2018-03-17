@@ -1,13 +1,14 @@
 
 Updated: 03-16-18
 
-In this repo, you will find a bunch of different projects' links based on machine learning.
+# Introduction
+In this repo, you will find a bunch of different machine learning projects I performed, so far.
 
-Please, scroll down to see the detail of projects and github repo's links.
+Please, scroll down to see the detail of projects and their repo's links.
 
-### Which one does it catch whole* SPAM SMS?
+## Which one does it catch whole* SPAM SMS?
 -------------------------------
-Check out its repo on Github: https://github.com/erdiolmezogullari/ml-spam-sms-classification
+Check out: https://github.com/erdiolmezogullari/ml-spam-sms-classification
 
 Methods: `Naive Bayesian`, `SVM`, `Random Forest Classifier`, `Deep Learning - LSTM`
 
@@ -26,9 +27,9 @@ Our deep learning architecture we used is based on [LSTM](https://en.wikipedia.o
 
 At the end of each processing by different classifier, we plotted [confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix) to compare which one the best classifier for filtering SPAM SMS.
 
-### Which novel do I belong To?
+## Which novel do I belong To?
 -------------------------------
-Check out its repo on Github: https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel
+Check out: https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel
 
 Methods: `Deep Learning - LSTM`
 
@@ -50,26 +51,26 @@ In this project, you are expected to learn a Machine Learning model that classif
 `Deeplearing (LSTM)` on top of `Keras (Tensorflow)` is performing the novel corpus data to solve this problem 
 after creating `word2vec` by using `Gensim`.
 
-### 02-imbalanced_car_booking_data [will be updated]
+## 02-imbalanced_car_booking_data [will be updated]
 --------------------------------
-Check out its repo on Github: https://github.com/erdiolmezogullari/ml-imbalanced-car-booking-data
+Check out: https://github.com/erdiolmezogullari/ml-imbalanced-car-booking-data
 
 In this project, we tried to solve `imbalanced data` using `over/under resampling techniques`
 
-### 03-time_series_analyis_on_sales_data [will be updated]
+## 03-time_series_analyis_on_sales_data [will be updated]
 --------------------------------
-Check out its repo on Github: https://github.com/erdiolmezogullari/ml-time-series-analysis-on-sales-data
+Check out: https://github.com/erdiolmezogullari/ml-time-series-analysis-on-sales-data
 
 In this project, we applied `time series decomposition techniques` and `random forest algorithm` to build a ML model
 
-### 04-ml_model_docker_web_service [will be updated]
+## 04-ml_model_docker_web_service [will be updated]
 --------------------------------
-Check out its repo on Github: https://github.com/erdiolmezogullari/ml-dockerized-microservice
+Check out: https://github.com/erdiolmezogullari/ml-dockerized-microservice
 
 In this project, a `ML micro-service` was developed by using `REST` and `Docker` after building a ML model using `random forest algoritm`
 
-### 05-join_data_by_geolocation [will be updated]
+## 05-join_data_by_geolocation [will be updated]
 --------------------------------
-Check out its repo on Github: https://github.com/erdiolmezogullari/ml-join-spatial-data
+Check out: https://github.com/erdiolmezogullari/ml-join-spatial-data
 
 In this project, two different data set which have location based `(GPS)` feature were joined `Kd-tree`.
