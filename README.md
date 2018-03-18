@@ -84,15 +84,22 @@ To define well-defined promo strategy, we once need to analysis data in terms of
 
 In addition, we used `Random Forest Regression` in this forecasting problem to boost our decision. 
 
-## 04-ml_model_docker_web_service [will be updated]
+## Deploying Machine Learning model as a Service in a Docker container : MLasS
 
 |__Problem__|__Methods__|__Frameworks__|__Link__|
 |-|-|-|-|
-|`N/A`|`Random Forest Classifier`|`NA`|https://github.com/erdiolmezogullari/ml-dockerized-microservice|
+|`N/A`|`Random Forest Classifier`|`Flask`, `Docker`, `Sklearn`|https://github.com/erdiolmezogullari/ml-dockerized-microservice|
 
-In this project, a `ML micro-service` was developed by using `REST` and `Docker` after building a ML model using `random forest algoritm`
+In this project, a `ML based micro-service` was developed on top of `REST` and `Docker` after building a machine learning model by performing `Random Forest`
 
-## 05-join_data_by_geolocation [will be updated]
+We used docker-compose to launch the micro services, below.
+1 - Jupyter Notebook,
+2 - Restful Comm. (Flask),
+3 - Redis
+
+After you create three different container, our MLasS will be ready.
+
+## 05-join_data_by_geolocation
 
 |__Problem__|__Methods__|__Frameworks__|__Link__|
 |-|-|-|-|
