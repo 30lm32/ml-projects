@@ -1,6 +1,4 @@
 
-Updated: 03-16-18
-
 ### Introduction
 In this repo, you will find a bunch of different machine learning projects I performed, so far.
 
