@@ -4,10 +4,10 @@ Updated: 03-16-18
 ### Introduction
 In this repo, you will find a bunch of different machine learning projects I performed, so far.
 
-|__Problem__|__Data__|__Methods__|__Libs__|__Link__|
+|__Problem__|__Data__|__Methods__|__Main Libs__|__Link__|
 |-|-|-|-|-|
-|`NLP`|Text|`Naive Bayesian`, `SVM`, `Random Forest Classifier`, `Deep Learning - LSTM`|`Sklearn`, `Keras`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-spam-sms-classification|
-|`NLP`|Text|`Deep Learning - LSTM`|`Sklearn`, `Keras`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel|
+|`NLP`|Text|`Naive Bayesian`, `SVM`, `Random Forest Classifier`, `Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-spam-sms-classification|
+|`NLP`|Text|`Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel|
 |`Imbalanced Data`|Car Booking|`Random Forest Classifier`|`Sklearn`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-imbalanced-car-booking-data|
 |`Forecasting - Timeseries`|Sales|`Random Forest Regressor`|`statsmodels`, `pandas`, `sklearn`, `seaborn`|https://github.com/erdiolmezogullari/ml-time-series-analysis-on-sales-data|
 |`Production Ready`|Randomly Generated|`Random Forest Classifier`|`Flask`, `Docker`, `Redis`, `Sklearn`|https://github.com/erdiolmezogullari/ml-dockerized-microservice|
@@ -19,9 +19,9 @@ Please, scroll down to see the detail of projects and their repo's links.
 
 ### Which one does it catch whole* SPAM SMS?
 
-|__Problem__|__Data__|__Methods__|__Libs__|__Link__|
+|__Problem__|__Data__|__Methods__|__Main Libs__|__Link__|
 |-|-|-|-|-|
-|`NLP`|Text|`Naive Bayesian`, `SVM`, `Random Forest Classifier`, `Deep Learning - LSTM`|`Sklearn`, `Keras`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-spam-sms-classification|
+|`NLP`|Text|`Naive Bayesian`, `SVM`, `Random Forest Classifier`, `Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-spam-sms-classification|
 
 In this project, We applied supervised learning (classification) algorithms and deep learning (LSTM).
 
@@ -40,9 +40,9 @@ At the end of each processing by different classifier, we plotted [confusion mat
 
 ### Which novel do I belong To?
 
-|__Problem__|__Data__|__Methods__|__Libs__|__Link__|
+|__Problem__|__Data__|__Methods__|__Main Libs__|__Link__|
 |-|-|-|-|-|
-|`NLP`|Text|`Deep Learning - LSTM`|`Sklearn`, `Keras`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel|
+|`NLP`|Text|`Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel|
 
 This project is related to text classification problem that we tackled with NLP and sufficient machine learning approaches. Dataset consists of different arbitrary passages which were collected over the different popular novels, below. We need to build a machine learning model that classifies those given arbitrary contexts as belonging to out of the following 12 novels:
 
@@ -65,7 +65,7 @@ In other words, those novels are our target variables as we listed above. To han
 
 ### Why do customers choose and book specific vehicles?
 
-|__Problem__|__Data__|__Methods__|__Libs__|__Link__|
+|__Problem__|__Data__|__Methods__|__Main Libs__|__Link__|
 |-|-|-|-|-|
 |`Imbalanced Data`|Car Booking|`Random Forest Classifier`|`Sklearn`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-imbalanced-car-booking-data|
 
@@ -77,7 +77,7 @@ In addition, the shape of dataset is `imbalanced`. It means that the target vari
 
 ### Forecasting impact of promos (promo1, promo2) on sales in Germany, Austria, and France
 
-|__Problem__|__Data__|__Methods__|__Libs__|__Link__|
+|__Problem__|__Data__|__Methods__|__Main Libs__|__Link__|
 |-|-|-|-|-|
 |`Forecasting - Timeseries`|Sales|`Random Forest Regressor`|`statsmodels`, `pandas`, `sklearn`, `seaborn`|https://github.com/erdiolmezogullari/ml-time-series-analysis-on-sales-data|
 
@@ -89,7 +89,7 @@ In addition, we used `Random Forest Regression` in this forecasting problem to b
 
 ### Deploying Machine Learning model as a Service in a Docker container : MLasS
 
-|__Problem__|__Data__|__Methods__|__Libs__|__Link__|
+|__Problem__|__Data__|__Methods__|__Main Libs__|__Link__|
 |-|-|-|-|-|
 |`Production Ready`|Randomly Generated|`Random Forest Classifier`|`Flask`, `Docker`, `Redis`, `Sklearn`|https://github.com/erdiolmezogullari/ml-dockerized-microservice|
 
@@ -105,7 +105,7 @@ After we created three different container, our MLasS would be ready.
 
 ### Random Forest Classification (PySpark)
 
-|__Problem__|__Data__|__Methods__|__Libs__|__Link__|
+|__Problem__|__Data__|__Methods__|__Main Libs__|__Link__|
 |-|-|-|-|-|
 |`PySpark`|Randomly Generated|`Random Forest Classifier`|`Spark (PySpark)`, `Sklearn`, `Pandas`, `Seaborn`| https://github.com/erdiolmezogullari/ml-random-forest-pyspark|
 
@@ -113,7 +113,7 @@ You can find a bunch of sample code related to how you can use PySpark. In this 
 
 ### Spatial data enrichment: Join two geolocation datasets by using Kdtree
 
-|__Problem__|__Data__|__Methods__|__Libs__|__Link__|
+|__Problem__|__Data__|__Methods__|__Main Libs__|__Link__|
 |-|-|-|-|-|
 |`Data Enrichment`|Spatial|`Kd-tree`|`cKDTree`|https://github.com/erdiolmezogullari/ml-join-spatial-data|
 
