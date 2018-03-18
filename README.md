@@ -4,7 +4,7 @@ Updated: 03-16-18
 ### Introduction
 In this repo, you will find a bunch of different machine learning projects I performed, so far.
 
-|__Problem__|__Data__|__Methods__|__Libs__|__Description__|__Link__|
+|__Problem__|__Data__|__Methods__|__Libs__|__Desc.__|__Link__|
 |-|-|-|-|-|-|
 |`NLP`|Text|`Naive Bayesian`, `SVM`, `Random Forest Classifier`, `Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|[Click](#which-one-does-it-catch-whole-spam-sms)|https://github.com/erdiolmezogullari/ml-spam-sms-classification|
 |`NLP`|Text|`Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|[Click](#which-novel-do-i-belong-to)|https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel|
