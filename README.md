@@ -13,6 +13,8 @@ In this repo, you will find a bunch of different machine learning projects I per
 |`ML Service`|Randomly Generated|`Random Forest Classifier`|`Flask`, `Docker`, `Redis`, `Sklearn`|[Click](#deploying-machine-learning-model-as-a-service-in-a-docker-container--mlass)|https://github.com/erdiolmezogullari/ml-dockerized-microservice|
 |`PySpark`|Randomly Generated|`Random Forest Classifier`|`Spark (PySpark)`, `Sklearn`, `Pandas`, `Seaborn`|[Click](#random-forest-classification-pyspark)| https://github.com/erdiolmezogullari/ml-random-forest-pyspark|
 |`Data Enrichment`|Spatial|`Kd-tree`|`cKDTree`|[Click](#spatial-data-enrichment-join-two-geolocation-datasets-by-using-kdtree)|https://github.com/erdiolmezogullari/ml-join-spatial-data|
+|`Implementation`|Statistics of Countries|`K-Means`|`Java SDK`|[Click](#aaa)|https://github.com/erdiolmezogullari/ml-k-means|
+
 
 
 Please, scroll down to see the detail of projects and their repo's links.
@@ -127,3 +129,11 @@ You can find a bunch of sample code related to how you can use PySpark. In this 
 In this project, to build an efficient script that finds the closest airport to a given user based on their geolocation and the geolocation of the airport.
 
 To make that data enrichment, we used `Kd-tree` algorithm.
+
+### Implementation of K-Means Algorithm from scratch in Java
+
+|__Problem__|__Data__|__Methods__|__Libs__|__Link__|
+|-|-|-|-|-|
+|`Implementation`|Statistics of Countries|`K-Means`|`Java SDK`| https://github.com/erdiolmezogullari/ml-k-means|
+
+Dataset: https://en.wikibooks.org/wiki/Data_Mining_Algorithms_In_R/Clustering/K-Means#Input_data
