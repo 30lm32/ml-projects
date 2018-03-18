@@ -18,6 +18,7 @@ In this repo, you will find a bunch of different machine learning projects I per
 Please, scroll down to see the detail of projects and their repo's links.
 
 ### Which one does it catch whole* SPAM SMS?
+---
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
@@ -39,6 +40,7 @@ Our deep learning architecture we used is based on [LSTM](https://en.wikipedia.o
 At the end of each processing by different classifier, we plotted [confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix) to compare which one the best classifier for filtering SPAM SMS.
 
 ### Which novel do I belong To?
+---
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
@@ -64,6 +66,7 @@ In other words, those novels are our target variables as we listed above. To han
 `Deeplearing (LSTM)` were used on top of `Keras (Tensorflow)` after creating embedding matrix by `Gensim's word2vec`.
 
 ### Why do customers choose and book specific vehicles?
+---
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
@@ -76,6 +79,7 @@ We explored the dataset by using `Seaborn`, and transformed, derived new feature
 In addition, the shape of dataset is `imbalanced`. It means that the target variable's distribution is skewed. To overcome that challenge, there are already defined a few different techniques (e.g. `over/under resampling techniques`) and intuitive approaches. We try to solve that problem using resampling techniques, as well.
 
 ### Forecasting impact of promos (promo1, promo2) on sales in Germany, Austria, and France
+---
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
@@ -88,6 +92,7 @@ To define well-defined promo strategy, we once need to analysis data in terms of
 In addition, we used `Random Forest Regression` in this forecasting problem to boost our decision. 
 
 ### Deploying Machine Learning model as a Service in a Docker container : MLasS
+---
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
@@ -104,6 +109,7 @@ We used `docker-compose` to launch the micro services, below.
 After we created three different container, our MLasS would be ready.
 
 ### Random Forest Classification (PySpark)
+---
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
@@ -112,6 +118,7 @@ After we created three different container, our MLasS would be ready.
 You can find a bunch of sample code related to how you can use PySpark. In this repo, Spark's MLlib (Random Forest Classifier), and Pipeline via PySpark.
 
 ### Spatial data enrichment: Join two geolocation datasets by using Kdtree
+---
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
@@ -119,4 +126,4 @@ You can find a bunch of sample code related to how you can use PySpark. In this 
 
 In this project, to build an efficient script that finds the closest airport to a given user based on their geolocation and the geolocation of the airport.
 
- To make that data enrichment, we used `Kd-tree` algorithm.
+To make that data enrichment, we used `Kd-tree` algorithm.
