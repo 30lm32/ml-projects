@@ -8,7 +8,7 @@ Please, scroll down to see the detail of projects and their repo's links.
 
 ## Random Forest Classification (PySpark)
 
-|__Problem__|__Methods__|__Frameworks__|__Link__|
+|__Problem__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|
 |`N/A`|`Random Forest Classifier`|`Spark (PySpark)`, `Sklearn`, `Pandas`, `Seaborn`| https://github.com/erdiolmezogullari/ml-random-forest-pyspark|
 
@@ -16,7 +16,7 @@ You can find a bunch of sample code related to how you can use PySpark. In this 
 
 ## Which one does it catch whole* SPAM SMS?
 
-|__Problem__|__Methods__|__Frameworks__|__Link__|
+|__Problem__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|
 |`N/A`|`Naive Bayesian`, `SVM`, `Random Forest Classifier`, `Deep Learning - LSTM`|`Sklearn`, `Keras`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-spam-sms-classification|
 
@@ -37,7 +37,7 @@ At the end of each processing by different classifier, we plotted [confusion mat
 
 ## Which novel do I belong To?
 
-|__Problem__|__Methods__|__Frameworks__|__Link__|
+|__Problem__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|
 |`N/A`|`Deep Learning - LSTM`|`Sklearn`, `Keras`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel|
 
@@ -62,7 +62,7 @@ In other words, those novels are our target variables as we listed above. To han
 
 ## Why do customers choose and book specific vehicles?
 
-|__Problem__|__Methods__|__Frameworks__|__Link__|
+|__Problem__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|
 |`N/A`|`Random Forest Classifier`|`Sklearn`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-imbalanced-car-booking-data|
 
@@ -74,7 +74,7 @@ In addition, the shape of dataset is `imbalanced`. It means that the target vari
 
 ## Forecasting impact of promos (promo1, promo2) on sales in Germany, Austria, and France
 
-|__Problem__|__Methods__|__Frameworks__|__Link__|
+|__Problem__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|
 |`N/A`|`Random Forest Regression`|`statsmodels`, `pandas`, `...`|https://github.com/erdiolmezogullari/ml-time-series-analysis-on-sales-data|
 
@@ -86,7 +86,7 @@ In addition, we used `Random Forest Regression` in this forecasting problem to b
 
 ## Deploying Machine Learning model as a Service in a Docker container : MLasS
 
-|__Problem__|__Methods__|__Frameworks__|__Link__|
+|__Problem__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|
 |`N/A`|`Random Forest Classifier`|`Flask`, `Docker`, `Sklearn`|https://github.com/erdiolmezogullari/ml-dockerized-microservice|
 
@@ -99,10 +99,12 @@ We used docker-compose to launch the micro services, below.
 
 After you create three different container, our MLasS will be ready.
 
-## 05-join_data_by_geolocation
+## Spatial data enrichment: Join two geolocation datasets by using Kdtree
 
-|__Problem__|__Methods__|__Frameworks__|__Link__|
+|__Problem__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|
-|`N/A`|`Random Forest Classifier`|`Kd-tree`|https://github.com/erdiolmezogullari/ml-join-spatial-data|
+|`N/A`|`Kd-tree`|`cKDTree`|https://github.com/erdiolmezogullari/ml-join-spatial-data|
 
-In this project, two different data set which have location based `(GPS)` feature were joined `Kd-tree`.
+In this project, to build an efficient script that finds the closest airport to a given user based on their geolocation and the geolocation of the airport.
+
+ To make that data enrichment, we used `Kd-tree` algorithm.
