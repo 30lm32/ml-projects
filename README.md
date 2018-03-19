@@ -1,6 +1,6 @@
 
 ### Introduction
-In this repo, you can find my works related to a bunch of different self paced machine learning projects. Since I have a real passion for ML, I got my hands dirty to get hands-on experiences.
+In this repository, you can find my works related to a bunch of different self paced machine learning projects. Since I have a real passion for ML, I got my hands dirty to get hands-on experiences.
 
 Please, check out once the table to get briefly information about projects, below.
 
@@ -16,7 +16,7 @@ Please, check out once the table to get briefly information about projects, belo
 |`Implementation`|Statistics of Countries|`K-Means`|`Java SDK`|[Click](#implementation-of-k-means-algorithm-from-scratch-in-java)|https://github.com/erdiolmezogullari/ml-k-means|
 
 
-Please, scroll down to see the comprehensive details about projects or visit their repos.
+Please, scroll down to see the comprehensive details about projects or visit their repository.
 
 ### Which one does it catch whole* SPAM SMS?
 ---
@@ -62,7 +62,7 @@ This project is related to text classification problem that we tackled with NLP 
     10. talw_of_two_cities
     11. tom_sawyer
 
-In other words, those novels are our target variables as we listed above. To handle that problem, We need to focus on the semantical meaning of sentences amongst passages. If there is any semantical flow amongst sentences in corresponding passage, We think about similar passage were collected over same novels mostlikely. Therefore, `Deeplearing (LSTM)` is the most suitable apporach with `word2vec`.
+In other words, those novels are our target variables as we listed above. To handle that problem, We need to focus on the semantical meaning of sentences amongst passages. If there is any semantical flow amongst sentences in corresponding passage, We think about similar passage were collected over same novels most likely. Therefore, `Deeplearing (LSTM)` is the most suitable approach with `word2vec`.
 
 `Deeplearing (LSTM)` were used on top of `Keras (Tensorflow)` after creating embedding matrix by `Gensim's word2vec`.
 
@@ -77,7 +77,7 @@ We built a machine learning model that answers the question, -what is the custom
 
 We explored the dataset by using `Seaborn`, and transformed, derived new features necessary.
 
-In addition, the shape of dataset is `imbalanced`. It means that the target variable's distribution is skewed. To overcome that challenge, there are already defined a few different techniques (e.g. `over/under resampling techniques`) and intuitive approaches. We try to solve that problem using resampling techniques, as well.
+In addition, the shape of dataset is `imbalanced`. It means that the target variable's distribution is skewed. To overcome that challenge, there are already defined a few different techniques (e.g. `over/under re-sampling techniques`) and intuitive approaches. We try to solve that problem using resampling techniques, as well.
 
 ### Forecasting impact of promos (promo1, promo2) on sales in Germany, Austria, and France
 ---
@@ -116,7 +116,7 @@ After we created three different container, our MLasS would be ready.
 |-|-|-|-|-|
 |`PySpark`|Randomly Generated|`Random Forest Classifier`|`Spark (PySpark)`, `Sklearn`, `Pandas`, `Seaborn`| https://github.com/erdiolmezogullari/ml-random-forest-pyspark|
 
-You can find a bunch of sample code related to how you can use PySpark. In this repo, Spark's MLlib (Random Forest Classifier), and Pipeline via PySpark.
+In this repository, you can find a bunch of sample code related to how you can use PySpark Spark's MLlib (Random Forest Classifier), and Pipeline via PySpark.
 
 ### Spatial data enrichment: Join two geolocation datasets by using Kdtree
 ---
