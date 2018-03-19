@@ -1,6 +1,6 @@
 
 ### Introduction
-In this repo, you can find my works related to a bunch of different self paced machine learning projects in which I was involved to get dirty my hands in order to turn my real passion into hands-on experiences.
+In this repo, you can find my works related to a bunch of different self paced machine learning projects in which I was involved to get my hands dirty in order to turn my real passion about ML into hands-on experiences.
 
 Please, check out once the table to get briefly information about projects, below.
 
