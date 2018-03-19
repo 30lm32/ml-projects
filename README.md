@@ -1,6 +1,8 @@
 
 ### Introduction
-In this repo, you will find a bunch of different machine learning projects I performed, so far.
+In this repo, you can find my works related to a bunch of different self paced machine learning projects in which I was involved to get dirty my hands in order to turn my real passion into hands-on experiences.
+
+Please, check out once the table to get briefly information about projects, below.
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Desc.__|__Link__|
 |-|-|-|-|-|-|
@@ -14,8 +16,7 @@ In this repo, you will find a bunch of different machine learning projects I per
 |`Implementation`|Statistics of Countries|`K-Means`|`Java SDK`|[Click](#implementation-of-k-means-algorithm-from-scratch-in-java)|https://github.com/erdiolmezogullari/ml-k-means|
 
 
-
-Please, scroll down to see the detail of projects and their repo's links.
+Please, scroll down to see the comprehensive details about projects or visit their repos.
 
 ### Which one does it catch whole* SPAM SMS?
 ---
