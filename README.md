@@ -14,6 +14,7 @@ Please, check out once the table to get briefly information about projects, belo
 |`PySpark`|Randomly Generated|`Random Forest Classifier`|`Spark (PySpark)`, `Sklearn`, `Pandas`, `Seaborn`|[Click](#random-forest-classification-pyspark)| https://github.com/erdiolmezogullari/ml-random-forest-pyspark|
 |`Data Enrichment`|Spatial|`Kd-tree`|`cKDTree`|[Click](#spatial-data-enrichment-join-two-geolocation-datasets-by-using-kdtree)|https://github.com/erdiolmezogullari/ml-join-spatial-data|
 |`Implementation`|Statistics of Countries|`K-Means`|`Java SDK`|[Click](#implementation-of-k-means-algorithm-from-scratch-in-java)|https://github.com/erdiolmezogullari/ml-k-means|
+|`Forecasting`,`Timeseries Analysis`|AWS EC2 Spot Price|`Adaboost Classifier`, `Decision Tree`|`Rapidminer`|[Click](#)|https://github.com/erdiolmezogullari/ml-forecasting-aws-spot-price|
 
 
 Please, scroll down to see the comprehensive details about projects or visit their repository.
@@ -136,3 +137,14 @@ To make that data enrichment, we used `Kd-tree` algorithm.
 |`Implementation`|Statistics of Countries|`K-Means`|`Java SDK`| https://github.com/erdiolmezogullari/ml-k-means|
 
 Dataset: https://en.wikibooks.org/wiki/Data_Mining_Algorithms_In_R/Clustering/K-Means#Input_data
+
+### Forecasting AWS Spot Price by using Adaboosting on Rapidminer
+
+|__Problem__|__Data__|__Methods__|__Libs__|__Link__|
+|-|-|-|-|-|
+|`Forecasting`,`Timeseries Analysis`|AWS EC2 Spot Price|`Adaboost Classifier`, `Decision Tree`|`Rapidminer`|https://github.com/erdiolmezogullari/ml-forecasting-aws-spot-price|
+
+
+In our project, we will use public data, which was collected by third party people and released through some specific websites. Since our data will be mainly related to Amazon Web Services’ (AWS) Elastic Computing (EC2), it will be consisting of some different fields. EC2 is a kind of virtual machine in the AWS’s cloud.
+A virtual machine can be created just in time either on private or public cloud over AWS whenever you need it. A new virtual machine can be picked with respect to different specs and configurations in terms of CPU, RAM, storage, and network band limit before creating it once from scratch. EC2 machines also are separated and managed by AWS on different geographical regions (US East, US West, EU, Asia Pacific, South America) and zone to increase availability of virtual machines across the world. AWS has different segmentations, which were classified with respect to system specs by AWS for based on different goals (macro instance, general purpose, compute optimized, storage optimized, GPU instance, memory optimized). Payment options are dedicated, on­demand and spot instance. Since they make different cost to customer’s operation, customers may prefer different kinds of virtual machine according to their goals and budgets. In general, spot instance is cheaper than the rest of the options. However, spot instance may be interrupted if market price exceeds our max bid.
+In our research, we will focus on spot instance payment. Our aim in this project will be selecting correct AWS instance from the Spot Instance Market according to the requirement of the customer. We plan to perform Decision Tree on streaming data to make a decision on the fly. It may be implemented as an incremental version of decision tree since data is changing continuously
