@@ -14,7 +14,7 @@ Please, check out once the table to get briefly information about projects, belo
 |`PySpark`|Randomly Generated|`Random Forest Classifier`|`Spark (PySpark)`, `Sklearn`, `Pandas`, `Seaborn`|[Click](#random-forest-classification-pyspark)| https://github.com/erdiolmezogullari/ml-random-forest-pyspark|
 |`Data Enrichment`|Spatial|`Kd-tree`|`cKDTree`|[Click](#spatial-data-enrichment-join-two-geolocation-datasets-by-using-kdtree)|https://github.com/erdiolmezogullari/ml-join-spatial-data|
 |`Implementation`|Statistics of Countries|`K-Means`|`Java SDK`|[Click](#implementation-of-k-means-algorithm-from-scratch-in-java)|https://github.com/erdiolmezogullari/ml-k-means|
-|`Forecasting`,`Timeseries Analysis`|AWS EC2 Spot Price|`Adaboost Classifier`, `Decision Tree`|`Rapidminer`|[Click](#)|https://github.com/erdiolmezogullari/ml-forecasting-aws-spot-price|
+|`Forecasting, Timeseries Analysis`|AWS EC2 Spot Price|`Adaboost Classifier`, `Decision Tree`|`Rapidminer`|[Click](##forecasting-aws-spot-price-by-using-adaboosting-on-rapidminer)|https://github.com/erdiolmezogullari/ml-forecasting-aws-spot-price|
 
 
 Please, scroll down to see the comprehensive details about projects or visit their repository.
@@ -142,7 +142,7 @@ Dataset: https://en.wikibooks.org/wiki/Data_Mining_Algorithms_In_R/Clustering/K-
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
-|`Forecasting`,`Timeseries Analysis`|AWS EC2 Spot Price|`Adaboost Classifier`, `Decision Tree`|`Rapidminer`|https://github.com/erdiolmezogullari/ml-forecasting-aws-spot-price|
+|`Forecasting, Timeseries Analysis`|AWS EC2 Spot Price|`Adaboost Classifier`, `Decision Tree`|`Rapidminer`|https://github.com/erdiolmezogullari/ml-forecasting-aws-spot-price|
 
 
 In our project, we will use public data, which was collected by third party people and released through some specific websites. Since our data will be mainly related to Amazon Web Services’ (AWS) Elastic Computing (EC2), it will be consisting of some different fields. EC2 is a kind of virtual machine in the AWS’s cloud.
