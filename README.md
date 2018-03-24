@@ -48,7 +48,7 @@ At the end of each processing by different classifier, we plotted [confusion mat
 |-|-|-|-|-|
 |`NLP`|Text|`Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel|
 
-This project is related to text classification problem that we tackled with NLP and sufficient machine learning approaches. Dataset consists of different arbitrary passages which were collected over the different popular novels, below. We need to build a machine learning model that classifies those given arbitrary contexts as belonging to out of the following 12 novels:
+This project is related to text classification problem that we tackled with `Deeplearing (LSTM)` model, which classifies given arbitrary paragraphes collected over 12 different novels randomly, above: 
 
     0. alice_in_wonderland
     1. dracula
@@ -63,9 +63,11 @@ This project is related to text classification problem that we tackled with NLP 
     10. talw_of_two_cities
     11. tom_sawyer
 
-In other words, those novels are our target variables as we listed above. To handle that problem, We need to focus on the semantical meaning of sentences amongst passages. If there is any semantical flow amongst sentences in corresponding passage, We think about similar passage were collected over same novels most likely. Therefore, `Deeplearing (LSTM)` is the most suitable approach with `word2vec`.
+In other words, you can think about those novels are our target classes of our dataset.
+To distinguish actual class of paragraph, the semantic latent amongst paragraphes would play an important role. Therefore, We used `Deeplearing (LSTM)` on top of `Keras (Tensorflow)` after creating an embedding matrix by `Gensim's word2vec`.
 
-`Deeplearing (LSTM)` were used on top of `Keras (Tensorflow)` after creating embedding matrix by `Gensim's word2vec`.
+If there is any semantic latent amongst sentences in corresponding paragraph, 
+We think about similar paragraphes were collected from same resources (novels) most likely.
 
 ### Why do customers choose and book specific vehicles?
 ---
