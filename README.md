@@ -6,6 +6,7 @@ Please, check out once the table to get briefly information about projects, belo
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Desc.__|__Link__|
 |-|-|-|-|-|-|
+|`NLP`|Text|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](#x)|https://github.com/erdiolmezogullari/multi-label-classification|
 |`NLP`|Text|`Naive Bayesian`, `SVM`, `Random Forest Classifier`, `Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|[Click](#which-one-does-it-catch-whole-spam-sms)|https://github.com/erdiolmezogullari/ml-spam-sms-classification|
 |`NLP`|Text|`Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|[Click](#which-novel-do-i-belong-to)|https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel|
 |`Imbalanced Data`|Car Booking|`Random Forest Classifier`|`Sklearn`, `Pandas`, `Seaborn`|[Click](#why-do-customers-choose-and-book-specific-vehicles)|https://github.com/erdiolmezogullari/ml-imbalanced-car-booking-data|
@@ -18,6 +19,10 @@ Please, check out once the table to get briefly information about projects, belo
 
 
 Please, scroll down to see the comprehensive details about projects or visit their repository.
+
+### x
+
+Explaination will come here.
 
 ### Which one does it catch whole* SPAM SMS?
 ---
