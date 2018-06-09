@@ -6,7 +6,7 @@ Please, check out once the table to get briefly information about projects, belo
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Desc.__|__Link__|
 |-|-|-|-|-|-|
-|`NLP`|Text|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](#x)|https://github.com/erdiolmezogullari/multi-label-classification|
+|`NLP`|Text|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](#multi-language-and-multi-label-classification-problem-on-fashion-dataset)|https://github.com/erdiolmezogullari/multi-label-classification|
 |`NLP`|Text|`Naive Bayesian`, `SVM`, `Random Forest Classifier`, `Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|[Click](#which-one-does-it-catch-whole-spam-sms)|https://github.com/erdiolmezogullari/ml-spam-sms-classification|
 |`NLP`|Text|`Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|[Click](#which-novel-do-i-belong-to)|https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel|
 |`Imbalanced Data`|Car Booking|`Random Forest Classifier`|`Sklearn`, `Pandas`, `Seaborn`|[Click](#why-do-customers-choose-and-book-specific-vehicles)|https://github.com/erdiolmezogullari/ml-imbalanced-car-booking-data|
@@ -20,9 +20,19 @@ Please, check out once the table to get briefly information about projects, belo
 
 Please, scroll down to see the comprehensive details about projects or visit their repository.
 
-### x
+### Multi-language and Multi-label Classification Problem on Fashion Dataset
 
-Explaination will come here.
+Dataset was collected over different fashion web sites. It consists of 7 fields like below.
+
+* `id`: A unique product identifier
+* `name`: The title of the product, as displayed on our website
+* `description`: The description of the product
+* `price`: The price of the product
+* `shop`: The shop from which you can buy this product
+* `brand`: The product brand
+* `labels`: The category labels that apply to this product
+
+The text features (name, description) are in different languages, such as English, German and Russian. The format of target feature is multilabels (60 categories) that were tagged according to corresponding to the category in fashion web sites differently.
 
 ### Which one does it catch whole* SPAM SMS?
 ---
