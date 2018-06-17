@@ -1,4 +1,7 @@
 
+
+![Image](https://cdn-images-1.medium.com/max/1600/1*60gs-SFYyooZZBxatuoNJw.jpeg)
+
 ### Introduction
 In this repository, you can find my works related to a bunch of different self paced machine learning projects. Since I have a real passion for ML, I got my hands dirty to get hands-on experiences.
 
