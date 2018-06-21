@@ -9,11 +9,12 @@ Please, check out once the table to get briefly information about projects, belo
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Desc.__|__Link__|
 |-|-|-|-|-|-|
+|`Forecasting, Timeseries`|N/A|`ARIMA`, `SARIMAX` |`statsmodels`, `pandas`, `sklearn`, `seaborn`|[Click](#multi-language-and-multi-label-classification-problem-on-fashion-dataset)|https://github.com/erdiolmezogullari/ml-time-series-analysis-sarimax|
 |`NLP`|Text|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](#multi-language-and-multi-label-classification-problem-on-fashion-dataset)|https://github.com/erdiolmezogullari/multi-label-classification|
 |`NLP`|Text|`Naive Bayesian`, `SVM`, `Random Forest Classifier`, `Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|[Click](#which-one-does-it-catch-whole-spam-sms)|https://github.com/erdiolmezogullari/ml-spam-sms-classification|
 |`NLP`|Text|`Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|[Click](#which-novel-do-i-belong-to)|https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel|
 |`Imbalanced Data`|Car Booking|`Random Forest Classifier`|`Sklearn`, `Pandas`, `Seaborn`|[Click](#why-do-customers-choose-and-book-specific-vehicles)|https://github.com/erdiolmezogullari/ml-imbalanced-car-booking-data|
-|`Forecasting, Timeseries`|Sales|`Random Forest Regressor`|`statsmodels`, `pandas`, `sklearn`, `seaborn`|[Click](#forecasting-impact-of-promos-promo1-promo2-on-sales-in-germany-austria-and-france)|https://github.com/erdiolmezogullari/ml-time-series-analysis-on-sales-data|
+|`Forecasting, Timeseries`|Sales|`Random Forest Regressor`, `ARIMA`, `SARIMAX`|`statsmodels`, `pandas`, `sklearn`, `seaborn`|[Click](#forecasting-impact-of-promos-promo1-promo2-on-sales-in-germany-austria-and-france)|https://github.com/erdiolmezogullari/ml-time-series-analysis-on-sales-data|
 |`ML Service`|Randomly Generated|`Random Forest Classifier`|`Flask`, `Docker`, `Redis`, `Sklearn`|[Click](#deploying-machine-learning-model-as-a-service-in-a-docker-container--mlass)|https://github.com/erdiolmezogullari/ml-dockerized-microservice|
 |`PySpark`|Randomly Generated|`Random Forest Classifier`|`Spark (PySpark)`, `Sklearn`, `Pandas`, `Seaborn`|[Click](#random-forest-classification-pyspark)| https://github.com/erdiolmezogullari/ml-random-forest-pyspark|
 |`Data Enrichment`|Spatial|`Kd-tree`|`cKDTree`|[Click](#spatial-data-enrichment-join-two-geolocation-datasets-by-using-kdtree)|https://github.com/erdiolmezogullari/ml-join-spatial-data|
@@ -22,6 +23,9 @@ Please, check out once the table to get briefly information about projects, belo
 
 
 Please, scroll down to see the comprehensive details about projects or visit their repository.
+### Time Series Analysis by SARIMAX
+
+A description will be added here, soon.
 
 ### Multi-language and Multi-label Classification Problem on Fashion Dataset
 
