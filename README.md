@@ -3,6 +3,8 @@
 ![Image](https://cdn-images-1.medium.com/max/1600/1*60gs-SFYyooZZBxatuoNJw.jpeg)
 
 ### Introduction
+---
+
 In this repository, you can find my works related to a bunch of different self paced machine learning projects. Since I have a real passion for ML, I got my hands dirty to get hands-on experiences.
 
 Please, check out once the table to get briefly information about projects, below.
@@ -24,17 +26,15 @@ Please, check out once the table to get briefly information about projects, belo
 
 Please, scroll down to see the comprehensive details about projects or visit their repository.
 
-
-![Image](https://c1.sfdcstatic.com/content/dam/blogs/ca/Blog%20Posts/sales-forecasting-header.jpg)
-
 ### Time Series Analysis by SARIMAX
+---
+![Image](https://c1.sfdcstatic.com/content/dam/blogs/ca/Blog%20Posts/sales-forecasting-header.jpg)
 
 A description will be added here, soon.
 
-
-![Image](https://tech.fashwell.com/wp-content/uploads/2017/08/pasted-image-0-650x223.png)
-
 ### Multi-language and Multi-label Classification Problem on Fashion Dataset
+---
+![Image](https://tech.fashwell.com/wp-content/uploads/2017/08/pasted-image-0-650x223.png)
 
 Dataset was collected over different fashion web sites. It consists of 7 fields like below.
 
@@ -48,10 +48,9 @@ Dataset was collected over different fashion web sites. It consists of 7 fields 
 
 The text features (name, description) are in different languages, such as English, German and Russian. The format of target feature is multilabels (60 categories) that were tagged according to corresponding to the category in fashion web sites differently.
 
-![Image](https://appliedmachinelearning.files.wordpress.com/2017/01/spam-filter.png)
-
 ### Which one does it catch whole* SPAM SMS?
 ---
+![Image](https://appliedmachinelearning.files.wordpress.com/2017/01/spam-filter.png)
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
@@ -72,10 +71,9 @@ Our deep learning architecture we used is based on [LSTM](https://en.wikipedia.o
 
 At the end of each processing by different classifier, we plotted [confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix) to compare which one the best classifier for filtering SPAM SMS.
 
-![Image](https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel/blob/master/cover.jpg)
-
 ### Which novel do I belong To?
 ---
+![Image](https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel/blob/master/cover.jpg)
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
@@ -102,10 +100,9 @@ To distinguish actual class of paragraph, the semantic latent amongst paragraphe
 If there is any semantic latent amongst sentences in corresponding paragraph, 
 We think about similar paragraphes were collected from same resources (novels) most likely.
 
-![Image](http://www.kashmircarrental.in/images/kashmir-car-rental.jpg)
-
 ### Why do customers choose and book specific vehicles?
 ---
+![Image](http://www.kashmircarrental.in/images/kashmir-car-rental.jpg)
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
@@ -117,10 +114,9 @@ We explored the dataset by using `Seaborn`, and transformed, derived new feature
 
 In addition, the shape of dataset is `imbalanced`. It means that the target variable's distribution is skewed. To overcome that challenge, there are already defined a few different techniques (e.g. `over/under re-sampling techniques`) and intuitive approaches. We try to solve that problem using resampling techniques, as well.
 
-![Image](http://forecastera.com/wp-content/uploads/2016/12/canstockphoto28242944-47.jpg)
-
 ### Forecasting impact of promos (promo1, promo2) on sales in Germany, Austria, and France
 ---
+![Image](http://forecastera.com/wp-content/uploads/2016/12/canstockphoto28242944-47.jpg)
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
@@ -132,10 +128,9 @@ To define well-defined promo strategy, we once need to analysis data in terms of
 
 In addition, we used `Random Forest Regression` in this forecasting problem to boost our decision. 
 
-![Image](https://i.ytimg.com/vi/AODHFqKBJRs/maxresdefault.jpg)
-
 ### Deploying Machine Learning model as a Service in a Docker container : MLasS
 ---
+![Image](https://i.ytimg.com/vi/AODHFqKBJRs/maxresdefault.jpg)
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
@@ -151,10 +146,9 @@ We used `docker-compose` to launch the micro services, below.
 
 After we created three different container, our MLasS would be ready.
 
-![Image](https://blog.epigno.systems/content/images/2018/02/python_spark-1.png)
-
 ### Random Forest Classification (PySpark)
 ---
+![Image](https://blog.epigno.systems/content/images/2018/02/python_spark-1.png)
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
@@ -162,10 +156,9 @@ After we created three different container, our MLasS would be ready.
 
 In this repository, you can find a bunch of sample code related to how you can use PySpark Spark's MLlib (Random Forest Classifier), and Pipeline via PySpark.
 
-![Image](https://www.researchgate.net/profile/Can_Cui7/publication/266556783/figure/fig1/AS:295546771263492@1447475249574/Diagram-of-the-KD-tree-structure.png)
-
 ### Spatial data enrichment: Join two geolocation datasets by using Kdtree
 ---
+![Image](https://www.researchgate.net/profile/Can_Cui7/publication/266556783/figure/fig1/AS:295546771263492@1447475249574/Diagram-of-the-KD-tree-structure.png)
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
@@ -176,6 +169,8 @@ In this project, to build an efficient script that finds the closest airport to 
 To make that data enrichment, we used `Kd-tree` algorithm.
 
 ### Implementation of K-Means Algorithm from scratch in Java
+---
+![Image](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/19344/versions/1/screenshot.jpg)
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
@@ -183,9 +178,9 @@ To make that data enrichment, we used `Kd-tree` algorithm.
 
 Dataset: https://en.wikibooks.org/wiki/Data_Mining_Algorithms_In_R/Clustering/K-Means#Input_data
 
-
-![Image](http://www.actoncloud.com/blog/wp-content/uploads/2017/08/aws-spot-instance.png)
 ### Forecasting AWS Spot Price by using Adaboosting on Rapidminer
+---
+![Image](http://www.actoncloud.com/blog/wp-content/uploads/2017/08/aws-spot-instance.png)
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
