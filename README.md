@@ -23,9 +23,16 @@ Please, check out once the table to get briefly information about projects, belo
 
 
 Please, scroll down to see the comprehensive details about projects or visit their repository.
+
+
+![Image](https://c1.sfdcstatic.com/content/dam/blogs/ca/Blog%20Posts/sales-forecasting-header.jpg)
+
 ### Time Series Analysis by SARIMAX
 
 A description will be added here, soon.
+
+
+![Image](https://tech.fashwell.com/wp-content/uploads/2017/08/pasted-image-0-650x223.png)
 
 ### Multi-language and Multi-label Classification Problem on Fashion Dataset
 
@@ -40,6 +47,8 @@ Dataset was collected over different fashion web sites. It consists of 7 fields 
 * `labels`: The category labels that apply to this product
 
 The text features (name, description) are in different languages, such as English, German and Russian. The format of target feature is multilabels (60 categories) that were tagged according to corresponding to the category in fashion web sites differently.
+
+![Image](https://appliedmachinelearning.files.wordpress.com/2017/01/spam-filter.png)
 
 ### Which one does it catch whole* SPAM SMS?
 ---
@@ -62,6 +71,8 @@ After applying those supervised learning methods, we also perfomed deep learning
 Our deep learning architecture we used is based on [LSTM](https://en.wikipedia.org/wiki/Long_short-term_memory). To perform LSTM approching in [Keras  (Tensorflow)](https://keras.io/), we needed to create an embedding matrix of our corpus. So, we used [Gensim's Word2Vec](https://radimrehurek.com/gensim/) approach to obtain embedding matrix, rather than TF-IDF.
 
 At the end of each processing by different classifier, we plotted [confusion matrix](https://en.wikipedia.org/wiki/Confusion_matrix) to compare which one the best classifier for filtering SPAM SMS.
+
+![Image](https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel/blob/master/cover.jpg)
 
 ### Which novel do I belong To?
 ---
@@ -91,6 +102,8 @@ To distinguish actual class of paragraph, the semantic latent amongst paragraphe
 If there is any semantic latent amongst sentences in corresponding paragraph, 
 We think about similar paragraphes were collected from same resources (novels) most likely.
 
+![Image](http://www.kashmircarrental.in/images/kashmir-car-rental.jpg)
+
 ### Why do customers choose and book specific vehicles?
 ---
 
@@ -104,6 +117,8 @@ We explored the dataset by using `Seaborn`, and transformed, derived new feature
 
 In addition, the shape of dataset is `imbalanced`. It means that the target variable's distribution is skewed. To overcome that challenge, there are already defined a few different techniques (e.g. `over/under re-sampling techniques`) and intuitive approaches. We try to solve that problem using resampling techniques, as well.
 
+![Image](http://forecastera.com/wp-content/uploads/2016/12/canstockphoto28242944-47.jpg)
+
 ### Forecasting impact of promos (promo1, promo2) on sales in Germany, Austria, and France
 ---
 
@@ -116,6 +131,8 @@ There are stores are giving two type of promos such as radio, TV corresponding t
 To define well-defined promo strategy, we once need to analysis data in terms of impacts of promos. In that case, since data is based on time series, we once referred to use  `time series decomposition`. After we decomposed `observed` data into `trend`, `seasonal`, and `residual` components, We exposed the impact of promos clearly to make a decision which promo is better in each country.
 
 In addition, we used `Random Forest Regression` in this forecasting problem to boost our decision. 
+
+![Image](https://i.ytimg.com/vi/AODHFqKBJRs/maxresdefault.jpg)
 
 ### Deploying Machine Learning model as a Service in a Docker container : MLasS
 ---
@@ -134,6 +151,8 @@ We used `docker-compose` to launch the micro services, below.
 
 After we created three different container, our MLasS would be ready.
 
+![Image](https://blog.epigno.systems/content/images/2018/02/python_spark-1.png)
+
 ### Random Forest Classification (PySpark)
 ---
 
@@ -142,6 +161,8 @@ After we created three different container, our MLasS would be ready.
 |`PySpark`|Randomly Generated|`Random Forest Classifier`|`Spark (PySpark)`, `Sklearn`, `Pandas`, `Seaborn`| https://github.com/erdiolmezogullari/ml-random-forest-pyspark|
 
 In this repository, you can find a bunch of sample code related to how you can use PySpark Spark's MLlib (Random Forest Classifier), and Pipeline via PySpark.
+
+![Image](https://www.researchgate.net/profile/Can_Cui7/publication/266556783/figure/fig1/AS:295546771263492@1447475249574/Diagram-of-the-KD-tree-structure.png)
 
 ### Spatial data enrichment: Join two geolocation datasets by using Kdtree
 ---
@@ -162,12 +183,13 @@ To make that data enrichment, we used `Kd-tree` algorithm.
 
 Dataset: https://en.wikibooks.org/wiki/Data_Mining_Algorithms_In_R/Clustering/K-Means#Input_data
 
+
+![Image](http://www.actoncloud.com/blog/wp-content/uploads/2017/08/aws-spot-instance.png)
 ### Forecasting AWS Spot Price by using Adaboosting on Rapidminer
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
 |`Forecasting, Timeseries Analysis`|AWS EC2 Spot Price|`Adaboost Classifier`, `Decision Tree`|`Rapidminer`|https://github.com/erdiolmezogullari/ml-forecasting-aws-spot-price|
-
 
 In our project, we will use public data, which was collected by third party people and released through some specific websites. Since our data will be mainly related to Amazon Web Services’ (AWS) Elastic Computing (EC2), it will be consisting of some different fields. EC2 is a kind of virtual machine in the AWS’s cloud.
 A virtual machine can be created just in time either on private or public cloud over AWS whenever you need it. A new virtual machine can be picked with respect to different specs and configurations in terms of CPU, RAM, storage, and network band limit before creating it once from scratch. EC2 machines also are separated and managed by AWS on different geographical regions (US East, US West, EU, Asia Pacific, South America) and zone to increase availability of virtual machines across the world. AWS has different segmentations, which were classified with respect to system specs by AWS for based on different goals (macro instance, general purpose, compute optimized, storage optimized, GPU instance, memory optimized). Payment options are dedicated, on­demand and spot instance. Since they make different cost to customer’s operation, customers may prefer different kinds of virtual machine according to their goals and budgets. In general, spot instance is cheaper than the rest of the options. However, spot instance may be interrupted if market price exceeds our max bid.
