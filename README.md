@@ -11,6 +11,7 @@ Please, check out once the table to get briefly information about projects, belo
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Desc.__|__Link__|
 |-|-|-|-|-|-|
+|`NLP`|Text|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](#hairstyle-classification)|https://github.com/erdiolmezogullari/ml-hairstyle-classification|
 |`NLP`|Text|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](#multi-language-and-multi-label-classification-problem-on-fashion-dataset)|https://github.com/erdiolmezogullari/multi-label-classification|
 |`NLP`|Text|`Naive Bayesian`, `SVM`, `Random Forest Classifier`, `Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|[Click](#which-one-does-it-catch-whole-spam-sms)|https://github.com/erdiolmezogullari/ml-spam-sms-classification|
 |`NLP`|Text|`Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|[Click](#which-novel-do-i-belong-to)|https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel|
@@ -25,6 +26,12 @@ Please, check out once the table to get briefly information about projects, belo
 
 
 Please, scroll down to see the comprehensive details about projects or visit their repository.
+
+### Hairstyle-Classification
+---
+![Image](https://howng.com/wp-content/uploads/2016/10/traditional-hairstyles-e1477039899416.jpg)
+
+A description will be added here, soon.
 
 ### Time Series Analysis by SARIMAX
 ---
