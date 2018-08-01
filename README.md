@@ -171,7 +171,7 @@ After we created three different container, our MLasS would be ready.
 
 ### Random Forest Classification (PySpark)
 ---
-![Image](https://blog.epigno.systems/content/images/2018/02/python_spark-1.png)
+![Image](https://www.kdnuggets.com/images/apache-spark-python-scala-605.jpg)
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
