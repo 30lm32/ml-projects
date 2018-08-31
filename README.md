@@ -5,10 +5,10 @@
 ### Introduction
 ---
 
-In this repository, you can find my works related to a bunch of different self paced machine learning projects. Since I have a real passion for ML, I got my hands dirty to get hands-on experiences.
+In this repository, you can find my works related to a bunch of different self paced machine learning projects. 
+Since I have passion for ML and Data Mining, I got my hands dirty to get hands-on experiences.
 
 Please, check out once the table to get briefly information about projects, below.
-
 
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Desc.__|__Link__|
