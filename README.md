@@ -9,8 +9,11 @@ In this repository, you can find my works related to a bunch of different self p
 
 Please, check out once the table to get briefly information about projects, below.
 
+
+
 |__Problem__|__Data__|__Methods__|__Libs__|__Desc.__|__Link__|
 |-|-|-|-|-|-|
+|`Prediction` ![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif) |Music Data|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](#prediction-skip-action)|https://github.com/erdiolmezogullari/ml-prediction-skip-action|
 |`NLP` ![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif) |Text|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](#hairstyle-classification)|https://github.com/erdiolmezogullari/ml-hairstyle-classification|
 |`NLP`|Text|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](#multi-language-and-multi-label-classification-problem-on-fashion-dataset)|https://github.com/erdiolmezogullari/multi-label-classification|
 |`NLP`|Text|`Naive Bayesian`, `SVM`, `Random Forest Classifier`, `Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|[Click](#which-one-does-it-catch-whole-spam-sms)|https://github.com/erdiolmezogullari/ml-spam-sms-classification|
@@ -26,6 +29,10 @@ Please, check out once the table to get briefly information about projects, belo
 
 
 Please, scroll down to see the comprehensive details about projects or visit their repository.
+### Prediction Skip Action
+---
+Some info will be added...
+
 
 ### Hairstyle Classification
 ---
