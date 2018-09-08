@@ -10,22 +10,21 @@ Since I have passion for ML and Data Mining, I got my hands dirty to get hands-o
 
 Please, check out once the table to get briefly information about projects, below.
 
-
-|__Problem__|__Data__|__Methods__|__Libs__|__Desc.__|__Link__|
-|-|-|-|-|-|-|
-|`Prediction` ![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif) |Music Data|`LightGBM`, `Linear Reg`, `Logistic Reg.`|`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](#prediction-skip-action)|https://github.com/erdiolmezogullari/ml-prediction-skip-action|
-|`NLP` ![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif) |Text|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](#hairstyle-classification)|https://github.com/erdiolmezogullari/ml-hairstyle-classification|
-|`NLP`|Text|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](#multi-language-and-multi-label-classification-problem-on-fashion-dataset)|https://github.com/erdiolmezogullari/multi-label-classification|
-|`NLP`|Text|`Naive Bayesian`, `SVM`, `Random Forest Classifier`, `Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|[Click](#which-one-does-it-catch-whole-spam-sms)|https://github.com/erdiolmezogullari/ml-spam-sms-classification|
-|`NLP`|Text|`Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|[Click](#which-novel-do-i-belong-to)|https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel|
-|`Imbalanced Data`|Car Booking|`Random Forest Classifier`|`Sklearn`, `Pandas`, `Seaborn`|[Click](#why-do-customers-choose-and-book-specific-vehicles)|https://github.com/erdiolmezogullari/ml-imbalanced-car-booking-data|
-|`Forecasting, Timeseries`|Sales|`Random Forest Regressor`, `ARIMA`, `SARIMAX`|`statsmodels`, `pandas`, `sklearn`, `seaborn`|[Click](#forecasting-impact-of-promos-promo1-promo2-on-sales-in-germany-austria-and-france)|https://github.com/erdiolmezogullari/ml-time-series-analysis-on-sales-data|
-|`Forecasting, Timeseries`|N/A|`ARIMA`, `SARIMAX` |`statsmodels`, `pandas`, `sklearn`, `seaborn`|[Click](#multi-language-and-multi-label-classification-problem-on-fashion-dataset)|https://github.com/erdiolmezogullari/ml-time-series-analysis-sarimax|
-|`ML Service`|Randomly Generated|`Random Forest Classifier`|`Flask`, `Docker`, `Redis`, `Sklearn`|[Click](#deploying-machine-learning-model-as-a-service-in-a-docker-container--mlass)|https://github.com/erdiolmezogullari/ml-dockerized-microservice|
-|`PySpark`|Randomly Generated|`Random Forest Classifier`|`Spark (PySpark)`, `Sklearn`, `Pandas`, `Seaborn`|[Click](#random-forest-classification-pyspark)| https://github.com/erdiolmezogullari/ml-random-forest-pyspark|
-|`Data Enrichment`|Spatial|`Kd-tree`|`cKDTree`|[Click](#spatial-data-enrichment-join-two-geolocation-datasets-by-using-kdtree)|https://github.com/erdiolmezogullari/ml-join-spatial-data|
-|`Implementation`|Statistics of Countries|`K-Means`|`Java SDK`|[Click](#implementation-of-k-means-algorithm-from-scratch-in-java)|https://github.com/erdiolmezogullari/ml-k-means|
-|`Forecasting, Timeseries`|AWS EC2 Spot Price|`Adaboost Classifier`, `Decision Tree`|`Rapidminer`|[Click](#forecasting-aws-spot-price-by-using-adaboosting-on-rapidminer)|https://github.com/erdiolmezogullari/ml-forecasting-aws-spot-price|
+|__Problem__|__Methods__|__Libs__|__Repo__|
+|-|-|-|-|
+|[Prediction Skip Action on Music Dataset](#prediction-skip-action)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)|`LightGBM`, `Linear Reg`, `Logistic Reg.`|`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/ml-prediction-skip-action)|
+|[Hairstyle Classification](#hairstyle-classification)|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/ml-hairstyle-classification)|
+|[Time Series Analysis by SARIMAX](#multi-language-and-multi-label-classification-problem-on-fashion-dataset)|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/multi-label-classification)|
+|[Multi-language and Multi-label Classification Problem on Fashion Dataset](#which-one-does-it-catch-whole-spam-sms)|`Naive Bayesian`, `SVM`, `Random Forest Classifier`, `Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|[Click](ttps://github.com/erdiolmezogullari/ml-spam-sms-classification)|
+|[Which one does it catch whole* SPAM SMS?](#which-novel-do-i-belong-to)|`Deep Learning - LSTM`, `Word2Vec`|`Sklearn`, `Keras`, `Gensim`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/ml-deep-learning-keras-novel)|
+|[Which novel do I belong To?](#why-do-customers-choose-and-book-specific-vehicles)|`Random Forest Classifier`|`Sklearn`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/ml-imbalanced-car-booking-data)|
+|[Why do customers choose and book specific vehicles?](#forecasting-impact-of-promos-promo1-promo2-on-sales-in-germany-austria-and-france)|`Random Forest Regressor`, `ARIMA`, `SARIMAX`|`statsmodels`, `pandas`, `sklearn`, `seaborn`|[Click](https://github.com/erdiolmezogullari/ml-time-series-analysis-on-sales-data)|
+|[Forecasting impact of promos (promo1, promo2) on sales in Germany, Austria, and France](#multi-language-and-multi-label-classification-problem-on-fashion-dataset)|`ARIMA`, `SARIMAX` |`statsmodels`, `pandas`, `sklearn`, `seaborn`|[Click](https://github.com/erdiolmezogullari/ml-time-series-analysis-sarimax)|
+|[Deploying a Machine Learning model as a Service in a Docker container : MLasS](#deploying-machine-learning-model-as-a-service-in-a-docker-container--mlass)|`Random Forest Classifier`|`Flask`, `Docker`, `Redis`, `Sklearn`|[Click](https://github.com/erdiolmezogullari/ml-dockerized-microservice)|
+|[Spatial data enrichment: Join two geolocation datasets by using Kdtree](#random-forest-classification-pyspark)| `Random Forest Classifier`|`Spark (PySpark)`, `Sklearn`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/ml-random-forest-pyspark)|
+|[Random Forest Classification Tutorial in PySpark](#spatial-data-enrichment-join-two-geolocation-datasets-by-using-kdtree)|`Kd-tree`|`cKDTree`|[Click](https://github.com/erdiolmezogullari/ml-join-spatial-data)|
+|[Implementation of K-Means Algorithm from scratch in Java](#implementation-of-k-means-algorithm-from-scratch-in-java)|`K-Means`|`Java SDK`|[Click](https://github.com/erdiolmezogullari/ml-k-means)|
+|[Forecasting AWS Spot Price by using Adaboosting on Rapidminer](#forecasting-aws-spot-price-by-using-adaboosting-on-rapidminer)|`Adaboost Classifier`, `Decision Tree`|`Rapidminer`|[Click](https://github.com/erdiolmezogullari/ml-forecasting-aws-spot-price)|
 
 
 Please, scroll down to see the comprehensive details about projects or visit their repository.
@@ -111,18 +110,18 @@ At the end of each processing by different classifier, we plotted [confusion mat
 
 This project is related to text classification problem that we tackled with `Deeplearing (LSTM)` model, which classifies given arbitrary paragraphes collected over 12 different novels randomly, above: 
 
-    0. alice_in_wonderland
-    1. dracula
-    2. dubliners
-    3. great_expectations
-    4. hard_times
-    5. huckleberry_finn
-    6. les_miserable
-    7. moby_dick
-    8. oliver_twist
-    9. peter_pan
-    10. talw_of_two_cities
-    11. tom_sawyer
+    1. alice_in_wonderland
+    2. dracula
+    3. dubliners
+    4. great_expectations
+    5. hard_times
+    6. huckleberry_finn
+    7. les_miserable
+    8. moby_dick
+    9. oliver_twist
+    10. peter_pan
+    11. talw_of_two_cities
+    12. tom_sawyer
 
 In other words, you can think about those novels are our target classes of our dataset.
 To distinguish actual class of paragraph, the semantic latent amongst paragraphes would play an important role. Therefore, We used `Deeplearing (LSTM)` on top of `Keras (Tensorflow)` after creating an embedding matrix by `Gensim's word2vec`.
