@@ -78,7 +78,7 @@ Since the most challenging parts of TSA is finding optimum parameters (p,d,q) an
 
 ### Multi-language and Multi-label Classification Problem on Fashion Dataset
 ---
-![Image](https://tech.fashwell.com/wp-content/uploads/2017/08/pasted-image-0-650x223.png)
+![Image](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/attributes.jpg)
 
 Dataset was collected over different fashion web sites. It consists of 7 fields like below.
 
