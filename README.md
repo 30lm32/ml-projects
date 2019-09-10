@@ -12,7 +12,9 @@ Please, check out once the table to get briefly information about projects, belo
 
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
-|[Prediction Skip Action on Music Dataset](#prediction-skip-action)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)|`LightGBM`, `Linear Reg`, `Logistic Reg.`|`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/ml-prediction-skip-action)|
+|[Integration of Fashion MNIST (CNN) Model into Tensorboard and MLflow](#fashion-mnist-with-tensorboard-and-mlflow)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)|`CNN`, `Deep Learning` |`Keras`, `MLflow`, `Pandas`, `Sklearn`|[Click](https://github.com/erdiolmezogullari/ml-case)|
+|[Dockerize an Apache Flink Application through Docker](#dockerize-an-apache-flink-application)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)| `Apache Flink Table & SQL` |`Apache Flink Table & SQL`, `Docker`, `Docker-Compose`|[Click](https://github.com/erdiolmezogullari/de-case)|
+|[Prediction Skip Action on Music Dataset](#prediction-skip-action)|`LightGBM`, `Linear Reg`, `Logistic Reg.`|`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/ml-prediction-skip-action)|
 |[Hairstyle Classification](#hairstyle-classification)|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/ml-hairstyle-classification)|
 |[Time Series Analysis by SARIMAX](#time-series-analysis-by-sarimax)|`ARIMA`, `SARIMAX` |`statsmodels`, `pandas`, `sklearn`, `seaborn`|[Click](https://github.com/erdiolmezogullari/ml-time-series-analysis-sarimax)|
 |[Multi-language and Multi-label Classification Problem on Fashion Dataset](#multi-language-and-multi-label-classification-problem-on-fashion-dataset)|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/multi-label-classification)|
@@ -27,6 +29,32 @@ Please, check out once the table to get briefly information about projects, belo
 
 
 Please, scroll down to see the comprehensive details about projects or visit their repository.
+### Fashion MNIST with Tensorboard and Mlflow
+---
+![Image](https://miro.medium.com/max/3330/1*yq2a2Iwms35TuaPqrUeTsA.png)
+
+|__Problem__|__Data__|__Methods__|__Libs__|__Link__|
+|-|-|-|-|-|
+|`Prediction`| Fashion MNIST |`CNN`, `Deep Learning` |`Keras`, `MLflow`, `Pandas`, `Sklearn`| https://github.com/erdiolmezogullari/ml-case|
+
+In this case, we used docker container technologies to create ML platform from scratch.
+It is consists of four different docker containers (mlflow, notebook, postgres, tensorboard) that are already built in `docker-compose.yml`
+
+The details of containers could be found under `./platform` directory.
+Each container service has a specific dockerfile corresponding to the directories (mlflow, notebook, postgres, tensorboard) under platform directory
+
+### Dockerize an Apache Flink Application
+---
+![Image](https://i.ytimg.com/vi/ej4juSB6MKs/hqdefault.jpg)
+
+|__Problem__|__Data__|__Methods__|__Libs__|__Link__|
+|-|-|-|-|-|
+|`Implementation`| Click Stream Dataset | `Apache Flink Table & SQL` |`Apache Flink Table & SQL`, `Docker`, `Docker-Compose`| https://github.com/erdiolmezogullari/de-case|
+
+Please, note that we used [`Apache Flink Table & SQL APIs`](https://ci.apache.org/projects/flink/flink-docs-stable/dev/table/) to write the queries on `DataSet` rather than using [`Apache Flink DataSet APIs`](https://ci.apache.org/projects/flink/flink-docs-release-1.9/dev/batch/) .
+The results of the queries will be dumbing into `./data/output` as q1, q2, q3, q4, q5, respectively. 
+
+
 ### Prediction Skip Action
 ---
 ![Image](https://raw.githubusercontent.com/erdiolmezogullari/ml-prediction-skip-action/2c3d0dcef096a475c6bf214c71cab23a22fd6bf8/img/waiting_time.jpg)
