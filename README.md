@@ -51,9 +51,8 @@ Each container service has a specific dockerfile corresponding to the directorie
 |-|-|-|-|-|
 |`Implementation`| Click Stream Dataset | `Apache Flink Table & SQL` |`Apache Flink Table & SQL`, `Docker`, `Docker-Compose`| https://github.com/erdiolmezogullari/de-case|
 
-Please, note that we used [`Apache Flink Table & SQL APIs`](https://ci.apache.org/projects/flink/flink-docs-stable/dev/table/) to write the queries on `DataSet` rather than using [`Apache Flink DataSet APIs`](https://ci.apache.org/projects/flink/flink-docs-release-1.9/dev/batch/) .
-The results of the queries will be dumbing into `./data/output` as q1, q2, q3, q4, q5, respectively. 
 
+In this case, we used docker container technologies to launch Flink cluster and Flink App separately from scratch. Flink Cluster (Platform) consists of two different docker containers (jobmanager, taskmanager) that are already built in docker-compose.flink.yml. Flink Application consists of one docker container that already using a dockerfile (./app-flink-base/Dockerfile) and a shell script (./app-flink-base/run.sh) to submit jar file to cluster in docker-compose-app-flink.yml.
 
 ### Prediction Skip Action
 ---
