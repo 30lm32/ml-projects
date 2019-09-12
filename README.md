@@ -31,7 +31,7 @@ Please, check out once the table to get briefly information about projects, belo
 Please, scroll down to see the comprehensive details about projects or visit their repository.
 ### Fashion MNIST with Tensorboard and Mlflow
 ---
-![Image](https://miro.medium.com/max/3330/1*yq2a2Iwms35TuaPqrUeTsA.png)
+![Image](https://miro.medium.com/max/571/1*evP6ekF_aPAxMzSL3LZmAg.png)
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
