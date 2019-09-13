@@ -5,10 +5,10 @@
 ### Introduction
 ---
 
-In this repository, you can find my works related to a bunch of different self paced machine learning projects. 
-Since I have passion for ML and Data Mining, I got my hands dirty to get hands-on experiences.
+In this repository, you will find my works related to a bunch of different self paced machine learning projects. 
+Since I would like to show my passion about ML, Data Mining and Data Engineering, I got my hands dirty to expose my hands-on experiences to you.
 
-Please, check out once the table to get briefly information about projects, below.
+Please, check out the table to get briefly information about projects, below.
 
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
@@ -28,7 +28,8 @@ Please, check out once the table to get briefly information about projects, belo
 |[Forecasting AWS Spot Price by using Adaboosting on Rapidminer](#forecasting-aws-spot-price-by-using-adaboosting-on-rapidminer)|`Adaboost Classifier`, `Decision Tree`|`Rapidminer`|[Click](https://github.com/erdiolmezogullari/ml-forecasting-aws-spot-price)|
 
 
-Please, scroll down to see the comprehensive details about projects or visit their repository.
+Please, scroll down to see the details of projects comprehensively and visit their repository.
+
 ### Fashion MNIST with Tensorboard and Mlflow
 ---
 ![Image](https://miro.medium.com/max/571/1*evP6ekF_aPAxMzSL3LZmAg.png)
@@ -37,8 +38,8 @@ Please, scroll down to see the comprehensive details about projects or visit the
 |-|-|-|-|-|
 |`Prediction`| Fashion MNIST |`CNN`, `Deep Learning` |`Keras`, `MLflow`, `Pandas`, `Sklearn`| https://github.com/erdiolmezogullari/ml-case|
 
-In this case, we used docker container technologies to create ML platform from scratch.
-It is consists of four different docker containers (mlflow, notebook, postgres, tensorboard) that are already built in `docker-compose.yml`
+In this project, we used docker container technologies to create ML platform from scratch.
+It consists of four different docker containers (mlflow, notebook, postgres, tensorboard) that are already built in `docker-compose.yml`
 
 The details of containers could be found under `./platform` directory.
 Each container service has a specific dockerfile corresponding to the directories (mlflow, notebook, postgres, tensorboard) under platform directory
@@ -52,7 +53,7 @@ Each container service has a specific dockerfile corresponding to the directorie
 |`Implementation`| Click Stream Dataset | `Apache Flink Table & SQL` |`Apache Flink Table & SQL`, `Docker`, `Docker-Compose`| https://github.com/erdiolmezogullari/de-case|
 
 
-In this case, we used docker container technologies to launch Flink cluster and Flink App separately from scratch. Flink Cluster (Platform) consists of two different docker containers (jobmanager, taskmanager) that are already built in docker-compose.flink.yml. Flink Application consists of one docker container that already using a dockerfile (./app-flink-base/Dockerfile) and a shell script (./app-flink-base/run.sh) to submit jar file to cluster in docker-compose-app-flink.yml.
+In this project, we used docker container technologies to launch Flink cluster and Flink App separately from scratch. Flink Cluster (Platform) consists of two different docker containers (jobmanager, taskmanager) that are already built in docker-compose.flink.yml. Flink Application consists of one docker container that already using a dockerfile (./app-flink-base/Dockerfile) and a shell script (./app-flink-base/run.sh) to submit jar file to cluster in docker-compose-app-flink.yml.
 
 ### Prediction Skip Action
 ---
@@ -62,7 +63,7 @@ In this case, we used docker container technologies to launch Flink cluster and 
 |-|-|-|-|-|
 |`Prediction`|Music Dataset|`LightGBM`, `Linear Reg`, `Logistic Reg.`|`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`| https://github.com/erdiolmezogullari/ml-prediction-skip-action|
 
-Since we don't have any class already labelled and any continuous target variable, we need to pick a feature for our target feature to predict skipping action of listener. According to the features we created, `per_listen` will be more suitable for that problem since it obviously gives idea about skipping action. If we pick it as a target feature, this problem will turn out a scoring/probability problem because of having ratio of listening time, which tends between 0 to 1.
+In this project, we need to predict the probability of skip action made by listeners, who is listening musics. Since we don't have any class already labelled by anyone. In this circumstances, We need to create a target label that could solve the problem. So, any continuous target variable should be picked as a target feature. According to the features we created, `per_listen (percentage of listen)` will be more suitable for that problem since it obviously gives idea about skipping action. If we pick it as a target feature, this problem will turn out a scoring/probability problem because of having ratio of listening time, which tends between 0 to 1.
 
 If we want to convert that problem to a classfication problem, we can determine a treshold for skipping aciton as a rule of thump. `per_listen` denotes how much percentage of the track that were listened by listener. So, our threshold could be 25%, 50% even 51% and so on. However, before making a decision, we can check out Complementary Cumulative Distribution Function (CCDF) of  `per_listen`. It would be give an idea about our reasonanle threshold. According the following plot, we have 65% of instances, whose per_listen value is greater than 0.5. Therefore, 0.5 is reasonable, however, when we think about it more realistic, less than 0.5 around 0.25 would be more suitable determine any skipping action.
 
@@ -74,7 +75,7 @@ If we want to convert that problem to a classfication problem, we can determine 
 |-|-|-|-|-|
 |`Classification`|Hairstyle Dataset|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`| https://github.com/erdiolmezogullari/ml-hairstyle-classification|
 
-The dataset contains a sample 10000 images mined from Instagram 
+In this project, the dataset contains a sample 10000 images mined from Instagram 
 and clustered based on the hairstyle they showcase.  
  
 The variable `cluster`  represents the hairstyle cluster that the image has been assigned to by 
@@ -100,7 +101,7 @@ Additionally a classifier `influencer_flag` was added to each of the images whic
 |-|-|-|-|-|
 |`Time Series Analysis`|Working Statistics|`ARIMA`, `SARIMAX` |`statsmodels`, `pandas`, `sklearn`, `seaborn`|https://github.com/erdiolmezogullari/ml-time-series-analysis-sarimax|
 
-In this experiment, we use time series analysis technique to decompose our data into 3 components like the below:
+In this project, we use time series analysis technique to decompose our data into 3 components like the below:
 
     1-Trend (T)
     2-Seasonility (S)
@@ -123,7 +124,7 @@ Since the most challenging parts of TSA is finding optimum parameters (p,d,q) an
 |`Classification`|Fashion Dataset|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/multi-label-classification|
 
 
-Dataset was collected over different fashion web sites. It consists of 7 fields like below.
+In this project, dataset was collected over different fashion web sites. It consists of 7 fields like below.
 
 * `id`: A unique product identifier
 * `name`: The title of the product, as displayed on our website
@@ -195,7 +196,7 @@ We think about similar paragraphes were collected from same resources (novels) m
 |-|-|-|-|-|
 |`Imbalanced Data`|Car Booking|`Random Forest Classifier`|`Sklearn`, `Pandas`, `Seaborn`|https://github.com/erdiolmezogullari/ml-imbalanced-car-booking-data|
 
-We built a machine learning model that answers the question, -what is the customer preference- on car booking dataset.
+In this project, We built a machine learning model that answers the question, -what is the customer preference- on car booking dataset.
 
 We explored the dataset by using `Seaborn`, and transformed, derived new features necessary.
 
@@ -209,7 +210,7 @@ In addition, the shape of dataset is `imbalanced`. It means that the target vari
 |-|-|-|-|-|
 |`Forecasting - Timeseries`|Sales|`Random Forest Regressor`|`statsmodels`, `pandas`, `sklearn`, `seaborn`|https://github.com/erdiolmezogullari/ml-time-series-analysis-on-sales-data|
 
-There are stores are giving two type of promos such as radio, TV corresponding to promo1 and promo2 so that they want to increase their sales across Germany, Austria, and France. However, they don't have any idea about which promo is sufficient to do it. So, the impact of promos on their sales are important roles on their preference.
+In this project, we need to perform time series analysis to get new insight about promos. There are stores that are giving two type of promos such as radio, TV corresponding to promo1 and promo2 so that they want to increase their sales across Germany, Austria, and France. However, they don't have any idea about which promo is sufficient to do it. So, the impact of promos on their sales are important roles on their preference.
 
 To define well-defined promo strategy, we once need to analysis data in terms of impacts of promos. In that case, since data is based on time series, we once referred to use  `time series decomposition`. After we decomposed `observed` data into `trend`, `seasonal`, and `residual` components, We exposed the impact of promos clearly to make a decision which promo is better in each country.
 
@@ -241,7 +242,7 @@ After we created three different container, our MLasS would be ready.
 |-|-|-|-|-|
 |`PySpark`|Randomly Generated|`Random Forest Classifier`|`Spark (PySpark)`, `Sklearn`, `Pandas`, `Seaborn`| https://github.com/erdiolmezogullari/ml-random-forest-pyspark|
 
-In this repository, you can find a bunch of sample code related to how you can use PySpark Spark's MLlib (Random Forest Classifier), and Pipeline via PySpark.
+In this project, you can find a bunch of sample code related to how you can use PySpark Spark's MLlib (Random Forest Classifier), and Pipeline via PySpark.
 
 ### Spatial data enrichment: Join two geolocation datasets by using Kdtree
 ---
@@ -263,6 +264,7 @@ To make that data enrichment, we used `Kd-tree` algorithm.
 |-|-|-|-|-|
 |`Implementation`|Statistics of Countries|`K-Means`|`Java SDK`| https://github.com/erdiolmezogullari/ml-k-means|
 
+In this project, K-Means clustering algorithm were implemented in Java from scratch.
 Dataset: https://en.wikibooks.org/wiki/Data_Mining_Algorithms_In_R/Clustering/K-Means#Input_data
 
 ### Forecasting AWS Spot Price by using Adaboosting on Rapidminer
@@ -273,6 +275,6 @@ Dataset: https://en.wikibooks.org/wiki/Data_Mining_Algorithms_In_R/Clustering/K-
 |-|-|-|-|-|
 |`Forecasting, Timeseries Analysis`|AWS EC2 Spot Price|`Adaboost Classifier`, `Decision Tree`|`Rapidminer`|https://github.com/erdiolmezogullari/ml-forecasting-aws-spot-price|
 
-In our project, we will use public data, which was collected by third party people and released through some specific websites. Since our data will be mainly related to Amazon Web Services’ (AWS) Elastic Computing (EC2), it will be consisting of some different fields. EC2 is a kind of virtual machine in the AWS’s cloud.
+In this project, we will use public data, which was collected by third party people and released through some specific websites. Since our data will be mainly related to Amazon Web Services’ (AWS) Elastic Computing (EC2), it will be consisting of some different fields. EC2 is a kind of virtual machine in the AWS’s cloud.
 A virtual machine can be created just in time either on private or public cloud over AWS whenever you need it. A new virtual machine can be picked with respect to different specs and configurations in terms of CPU, RAM, storage, and network band limit before creating it once from scratch. EC2 machines also are separated and managed by AWS on different geographical regions (US East, US West, EU, Asia Pacific, South America) and zone to increase availability of virtual machines across the world. AWS has different segmentations, which were classified with respect to system specs by AWS for based on different goals (macro instance, general purpose, compute optimized, storage optimized, GPU instance, memory optimized). Payment options are dedicated, on­demand and spot instance. Since they make different cost to customer’s operation, customers may prefer different kinds of virtual machine according to their goals and budgets. In general, spot instance is cheaper than the rest of the options. However, spot instance may be interrupted if market price exceeds our max bid.
 In our research, we will focus on spot instance payment. Our aim in this project will be selecting correct AWS instance from the Spot Instance Market according to the requirement of the customer. We plan to perform Decision Tree on streaming data to make a decision on the fly. It may be implemented as an incremental version of decision tree since data is changing continuously
