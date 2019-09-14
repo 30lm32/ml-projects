@@ -14,7 +14,7 @@ Please, check out the table to get briefly information about projects, below.
 |-|-|-|-|
 |[Integration of Fashion MNIST (CNN) Model into Tensorboard and MLflow](#fashion-mnist-with-tensorboard-and-mlflow)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)|`CNN`, `Deep Learning` |`Keras`, `MLflow`, `Pandas`, `Sklearn`|[Click](https://github.com/erdiolmezogullari/ml-case)|
 |[Dockerize an Apache Flink Application through Docker](#dockerize-an-apache-flink-application)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)| `Apache Flink Table & SQL` |`Apache Flink Table & SQL`, `Docker`, `Docker-Compose`|[Click](https://github.com/erdiolmezogullari/de-case)|
-|[Crawler as a Service](#dockerize-an-apache-flink-application)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)| Searching (`DFS`, `BFS`) |`GO`, `Neo4j`, `Redis`, `Docker`, `Docker-Compose`|[Click](https://github.com/erdiolmezogullari/de-crawler-as-a-service)|
+|[Crawler as a Service](#crawler-as-a-service)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)| Searching (`DFS`, `BFS`) |`GO`, `Neo4j`, `Redis`, `Docker`, `Docker-Compose`|[Click](https://github.com/erdiolmezogullari/de-crawler-as-a-service)|
 |[Prediction Skip Action on Music Dataset](#prediction-skip-action)|`LightGBM`, `Linear Reg`, `Logistic Reg.`|`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/ml-prediction-skip-action)|
 |[Hairstyle Classification](#hairstyle-classification)|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/ml-hairstyle-classification)|
 |[Time Series Analysis by SARIMAX](#time-series-analysis-by-sarimax)|`ARIMA`, `SARIMAX` |`statsmodels`, `pandas`, `sklearn`, `seaborn`|[Click](https://github.com/erdiolmezogullari/ml-time-series-analysis-sarimax)|
@@ -65,7 +65,7 @@ In this project, we used docker container technologies to launch Flink cluster a
 |-|-|-|-|-|
 |`Implementation`| N/A | Searching (`BFS`, `DFS`) |`GO`, `Neo4j`, `Redis`, `Docker`, `Docker-Compose`| https://github.com/erdiolmezogullari/de-crawler-as-a-service|
 
-A simple crawler service was implemented from scratch, and integrated into `Redis` and `Neo4j` NoSQL systems by using `Docker` and `Docker-compose`.
+In this project, a simple crawler service was implemented from scratch, and integrated into `Redis` and `Neo4j` NoSQL systems by using `Docker` and `Docker-compose`.
 The crawler service is crawling the first target URL, and then, visiting the rest of URLs in the fetched HTML documents, respectively and recursively.
 While crawling a HTML documents corresponding to URLs, it could refer to 1 out of 2 different searching algorithms (`BFS, DFS`).
 Those searching algorithms were boosted by `go routines` in `GO` in order to speed up crawling service.
