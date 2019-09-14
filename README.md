@@ -14,6 +14,7 @@ Please, check out the table to get briefly information about projects, below.
 |-|-|-|-|
 |[Integration of Fashion MNIST (CNN) Model into Tensorboard and MLflow](#fashion-mnist-with-tensorboard-and-mlflow)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)|`CNN`, `Deep Learning` |`Keras`, `MLflow`, `Pandas`, `Sklearn`|[Click](https://github.com/erdiolmezogullari/ml-case)|
 |[Dockerize an Apache Flink Application through Docker](#dockerize-an-apache-flink-application)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)| `Apache Flink Table & SQL` |`Apache Flink Table & SQL`, `Docker`, `Docker-Compose`|[Click](https://github.com/erdiolmezogullari/de-case)|
+|[Crawler as a Service](#dockerize-an-apache-flink-application)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)| Searching (`DFS`, `BFS`) |`GO`, `Neo4j`, `Redis`, `Docker`, `Docker-Compose`|[Click](https://github.com/erdiolmezogullari/de-crawler-as-a-service)|
 |[Prediction Skip Action on Music Dataset](#prediction-skip-action)|`LightGBM`, `Linear Reg`, `Logistic Reg.`|`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/ml-prediction-skip-action)|
 |[Hairstyle Classification](#hairstyle-classification)|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/ml-hairstyle-classification)|
 |[Time Series Analysis by SARIMAX](#time-series-analysis-by-sarimax)|`ARIMA`, `SARIMAX` |`statsmodels`, `pandas`, `sklearn`, `seaborn`|[Click](https://github.com/erdiolmezogullari/ml-time-series-analysis-sarimax)|
@@ -54,6 +55,29 @@ Each container service has a specific dockerfile corresponding to the directorie
 
 
 In this project, we used docker container technologies to launch Flink cluster and Flink App separately from scratch. Flink Cluster (Platform) consists of two different docker containers (jobmanager, taskmanager) that are already built in docker-compose.flink.yml. Flink Application consists of one docker container that already using a dockerfile (./app-flink-base/Dockerfile) and a shell script (./app-flink-base/run.sh) to submit jar file to cluster in docker-compose-app-flink.yml.
+
+
+### Crawler as a Service
+---
+![Image](https://22570l2e793j2oo9c81ug2nh-wpengine.netdna-ssl.com/wp-content/uploads/2014/06/web-spider-cropped.png)
+
+|__Problem__|__Data__|__Methods__|__Libs__|__Link__|
+|-|-|-|-|-|
+|`Implementation`| N/A | Searching (`BFS`, `DFS`) |`GO`, `Neo4j`, `Redis`, `Docker`, `Docker-Compose`| https://github.com/erdiolmezogullari/de-crawler-as-a-service|
+
+A simple crawler service was implemented from scratch, and integrated into `Redis` and `Neo4j` NoSQL systems by using `Docker` and `Docker-compose`.
+The crawler service is crawling the first target URL, and then, visiting the rest of URLs in the fetched HTML documents, respectively and recursively.
+While crawling a HTML documents corresponding to URLs, it could refer to 1 out of 2 different searching algorithms (`BFS, DFS`).
+Those searching algorithms were boosted by `go routines` in `GO` in order to speed up crawling service.
+
+During crawling, there is a possibility that a bunch of go routines that would be created may fetch and process the same HTML documents at the same time.
+In this case, the crawler may create inconsistent data. Thus, `Redis` Key-Value NoSQL system was preferred using in this project to solve that problem and build a robust and consistent system.
+
+Each URL may referring to either the other different URL or itself in a HTML document. That relationship between two URLs can call as a Link.
+There is a simple easy way to represent those crawled Links and URLs by using a specific data structure, which is graph.
+Thus, `Neo4j` Graph NoSQL were used to represent and visualize the graph which consists of URLs and Links.
+During crawling, the crawling service is either creating a new node for each URL and new link for each URL pair, or updating existing nodes and links on `Neo4j` by using [`Cypher`](https://neo4j.com/developer/cypher-query-language/) query, as well.
+
 
 ### Prediction Skip Action
 ---
