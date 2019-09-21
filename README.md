@@ -5,10 +5,12 @@
 ### Introduction
 ---
 
-In this repository, you will find my works related to a bunch of different self paced machine learning projects. 
-Since I would like to show my passion about ML, Data Mining and Data Engineering, I got my hands dirty to expose my hands-on experiences to you.
+In this passionated self paced collection repository, you will find many Machine Learning, Data Mining and Data Engineering challenges that I have been tackling, so far. Throughout this guideline you will walk through the details of projects and repositories.
 
-Please, check out the table to get briefly information about projects, below.
+I hope that you would enjoy while checking out those repositories related to ML, Data Mining and Data Engineering on the table, below.
+
+You may reach me whenever you want to get further information about projects.
+
 
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
