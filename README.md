@@ -14,8 +14,8 @@ You may reach me whenever you want to get further information about projects.
 
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
-|[Integration of Fashion MNIST (CNN) Model into Tensorboard and MLflow](#fashion-mnist-with-tensorboard-and-mlflow)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)|`CNN`, `Deep Learning` |`Keras`, `MLflow`, `Pandas`, `Sklearn`|[Click](https://github.com/erdiolmezogullari/ml-case)|
-|[Dockerize an Apache Flink Application through Docker](#dockerize-an-apache-flink-application)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)| `Apache Flink Table & SQL` |`Apache Flink Table & SQL`, `Docker`, `Docker-Compose`|[Click](https://github.com/erdiolmezogullari/de-case)|
+|[Integration of Fashion MNIST (CNN) Model into Tensorboard and MLflow](#fashion-mnist-with-tensorboard-and-mlflow)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)|`CNN`, `Deep Learning` |`Keras`, `MLflow`, `Pandas`, `Sklearn`|[Click](https://github.com/erdiolmezogullari/ml-fmnist-mlflow-tensorboard)|
+|[Dockerize an Apache Flink Application through Docker](#dockerize-an-apache-flink-application)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)| `Apache Flink Table & SQL` |`Apache Flink Table & SQL`, `Docker`, `Docker-Compose`|[Click](https://github.com/erdiolmezogullari/de-flink-sql-as-a-docker)|
 |[Crawler as a Service](#crawler-as-a-service)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)| Searching (`DFS`, `BFS`) |`GO`, `Neo4j`, `Redis`, `Docker`, `Docker-Compose`|[Click](https://github.com/erdiolmezogullari/de-crawler-as-a-service)|
 |[Prediction Skip Action on Music Dataset](#prediction-skip-action)|`LightGBM`, `Linear Reg`, `Logistic Reg.`|`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/ml-prediction-skip-action)|
 |[Hairstyle Classification](#hairstyle-classification)|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/ml-hairstyle-classification)|
@@ -39,7 +39,7 @@ Please, scroll down to see the details of projects comprehensively and visit the
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
-|`Prediction`| Fashion MNIST |`CNN`, `Deep Learning` |`Keras`, `MLflow`, `Pandas`, `Sklearn`| https://github.com/erdiolmezogullari/ml-case|
+|`Prediction`| Fashion MNIST |`CNN`, `Deep Learning` |`Keras`, `MLflow`, `Pandas`, `Sklearn`| https://github.com/erdiolmezogullari/ml-fmnist-mlflow-tensorboard|
 
 In this project, we used docker container technologies to create ML platform from scratch.
 It consists of four different docker containers (mlflow, notebook, postgres, tensorboard) that are already built in `docker-compose.yml`
@@ -53,7 +53,7 @@ Each container service has a specific dockerfile corresponding to the directorie
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
-|`Implementation`| Click Stream Dataset | `Apache Flink Table & SQL` |`Apache Flink Table & SQL`, `Docker`, `Docker-Compose`| https://github.com/erdiolmezogullari/de-case|
+|`Implementation`| Click Stream Dataset | `Apache Flink Table & SQL` |`Apache Flink Table & SQL`, `Docker`, `Docker-Compose`| https://github.com/erdiolmezogullari/de-flink-sql-as-a-docker|
 
 
 In this project, we used docker container technologies to launch Flink cluster and Flink App separately from scratch. Flink Cluster (Platform) consists of two different docker containers (jobmanager, taskmanager) that are already built in docker-compose.flink.yml. Flink Application consists of one docker container that already using a dockerfile (./app-flink-base/Dockerfile) and a shell script (./app-flink-base/run.sh) to submit jar file to cluster in docker-compose-app-flink.yml.
