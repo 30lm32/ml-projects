@@ -14,7 +14,7 @@ You may reach me whenever you want to get further information about projects.
 
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
-|[Conversion of Landing Page](#a/b-testing-to-distinguish-impact-of-version-of-landing-page-on-user)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)|`A\B Testing`, `Z test` |`pandas`, `statsmodel`|[Click](https://github.com/erdiolmezogullari/ml-ab-testing)|
+|[Conversion of Landing Page](#ab-testing-to-distinguish-impact-of-version-of-landing-page-on-user)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)|`A\B Testing`, `Z test` |`pandas`, `statsmodel`|[Click](https://github.com/erdiolmezogullari/ml-ab-testing)|
 |[Integration of Fashion MNIST (CNN) Model into Tensorboard and MLflow](#fashion-mnist-with-tensorboard-and-mlflow)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)|`CNN`, `Deep Learning` |`Keras`, `MLflow`, `Pandas`, `Sklearn`|[Click](https://github.com/erdiolmezogullari/ml-fmnist-mlflow-tensorboard)|
 |[Dockerize an Apache Flink Application through Docker](#dockerize-an-apache-flink-application)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)| `Apache Flink Table & SQL` |`Apache Flink Table & SQL`, `Docker`, `Docker-Compose`|[Click](https://github.com/erdiolmezogullari/de-flink-sql-as-a-docker)|
 |[Crawler as a Service](#crawler-as-a-service)| Searching (`DFS`, `BFS`) |`GO`, `Neo4j`, `Redis`, `Docker`, `Docker-Compose`|[Click](https://github.com/erdiolmezogullari/de-crawler-as-a-service)|
@@ -35,7 +35,7 @@ Please, scroll down to see the details of projects comprehensively and visit the
 
 ### A/B Testing to Distinguish Impact of Version of Landing Page on User
 
-![](https://receiptful-blog-staging.s3.amazonaws.com/2015/Apr/a_b_testing-1430250346717.jpg)
+![](https://camo.githubusercontent.com/b6b4a987351274b68f606b1904cba146654ec7f1/68747470733a2f2f666f7875746563682e636f6d2f77702d636f6e74656e742f75706c6f6164732f323031382f31302f41422d6465706c6f796d656e742e706e67)
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
