@@ -14,9 +14,10 @@ You may reach me whenever you want to get further information about projects.
 
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
+|[Conversion of Landing Page](#a/b-testing-to-distinguish-impact-of-version-of-landing-page-on-user)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)|`A\B Testing`, `Z test` |`pandas`, `statsmodel`|[Click](https://github.com/erdiolmezogullari/ml-ab-testing)|
 |[Integration of Fashion MNIST (CNN) Model into Tensorboard and MLflow](#fashion-mnist-with-tensorboard-and-mlflow)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)|`CNN`, `Deep Learning` |`Keras`, `MLflow`, `Pandas`, `Sklearn`|[Click](https://github.com/erdiolmezogullari/ml-fmnist-mlflow-tensorboard)|
 |[Dockerize an Apache Flink Application through Docker](#dockerize-an-apache-flink-application)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)| `Apache Flink Table & SQL` |`Apache Flink Table & SQL`, `Docker`, `Docker-Compose`|[Click](https://github.com/erdiolmezogullari/de-flink-sql-as-a-docker)|
-|[Crawler as a Service](#crawler-as-a-service)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)| Searching (`DFS`, `BFS`) |`GO`, `Neo4j`, `Redis`, `Docker`, `Docker-Compose`|[Click](https://github.com/erdiolmezogullari/de-crawler-as-a-service)|
+|[Crawler as a Service](#crawler-as-a-service)| Searching (`DFS`, `BFS`) |`GO`, `Neo4j`, `Redis`, `Docker`, `Docker-Compose`|[Click](https://github.com/erdiolmezogullari/de-crawler-as-a-service)|
 |[Prediction Skip Action on Music Dataset](#prediction-skip-action)|`LightGBM`, `Linear Reg`, `Logistic Reg.`|`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/ml-prediction-skip-action)|
 |[Hairstyle Classification](#hairstyle-classification)|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/ml-hairstyle-classification)|
 |[Time Series Analysis by SARIMAX](#time-series-analysis-by-sarimax)|`ARIMA`, `SARIMAX` |`statsmodels`, `pandas`, `sklearn`, `seaborn`|[Click](https://github.com/erdiolmezogullari/ml-time-series-analysis-sarimax)|
@@ -30,8 +31,21 @@ You may reach me whenever you want to get further information about projects.
 |[Implementation of K-Means Algorithm from scratch in Java](#implementation-of-k-means-algorithm-from-scratch-in-java)|`K-Means`|`Java SDK`|[Click](https://github.com/erdiolmezogullari/ml-k-means)|
 |[Forecasting AWS Spot Price by using Adaboosting on Rapidminer](#forecasting-aws-spot-price-by-using-adaboosting-on-rapidminer)|`Adaboost Classifier`, `Decision Tree`|`Rapidminer`|[Click](https://github.com/erdiolmezogullari/ml-forecasting-aws-spot-price)|
 
-
 Please, scroll down to see the details of projects comprehensively and visit their repository.
+
+### A/B Testing to Distinguish Impact of Version of Landing Page on User
+
+![](https://receiptful-blog-staging.s3.amazonaws.com/2015/Apr/a_b_testing-1430250346717.jpg)
+
+|__Problem__|__Data__|__Methods__|__Libs__|__Link__|
+|-|-|-|-|-|
+|`Conversion`|Retail|`A\B Testing`, `Z test`|`pandas`, `statsmodel`|https://github.com/erdiolmezogullari/ml-ab-testing|
+
+In this project, A/B testing was performed on Udacity's Course dataset. It consists of 5 columns, `<user_id, timestamp, group, landing_page, converted>`. In A/B testing,  we used 3 columns of out of them, `group, landing_page, and converted`.
+
+ We once simulated some experiments N times with respect to the conversion rates (`control, treatment`) already obtained over dataset. After got the further idea about dataset with this simulation, we supposed a null hypothesis and an alternative thesis. To claim our trueness of alternative hypothesis, we calculated z critical score by using `Z test` method with respect to alpha (0.05), and then we checked out beta, and power with respect to the effect size of the experiment.
+
+Please, note that you may check out [`ab_test.md`](https://github.com/erdiolmezogullari/ml-ab-testing/blob/master/ab_test.md) to get the further information about hypothesis test and A/B testing with some important photos.
 
 ### Fashion MNIST with Tensorboard and Mlflow
 ---
