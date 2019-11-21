@@ -230,7 +230,7 @@ We think about similar paragraphes were collected from same resources (novels) m
 
 ### Why do customers choose and book specific vehicles?
 ---
-![Image](http://www.kashmircarrental.in/images/kashmir-car-rental.jpg)
+![Image](https://cabrentalmysore.com/wp-content/uploads/2018/11/Booking-Car-reservation-online.jpg)
 
 |__Problem__|__Data__|__Methods__|__Libs__|__Link__|
 |-|-|-|-|-|
