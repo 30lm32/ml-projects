@@ -14,9 +14,9 @@ You may reach me whenever you want to get further information about projects.
 
 |__Problem__|__Methods__|__Libs__|__Repo__|
 |-|-|-|-|
-|[Conversion of Landing Page](#ab-testing-to-distinguish-impact-of-version-of-landing-page-on-user)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)|`A\B Testing`, `Z test` |`pandas`, `statsmodel`|[Click](https://github.com/erdiolmezogullari/ml-ab-testing)|
-|[Integration of Fashion MNIST (CNN) Model into Tensorboard and MLflow](#fashion-mnist-with-tensorboard-and-mlflow)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)|`CNN`, `Deep Learning` |`Keras`, `MLflow`, `Pandas`, `Sklearn`|[Click](https://github.com/erdiolmezogullari/ml-fmnist-mlflow-tensorboard)|
-|[Dockerize an Apache Flink Application through Docker](#dockerize-an-apache-flink-application)![Image](https://zippy.gfycat.com/AdorableFlatAsiaticmouflon.gif)| `Apache Flink Table & SQL` |`Apache Flink Table & SQL`, `Docker`, `Docker-Compose`|[Click](https://github.com/erdiolmezogullari/de-flink-sql-as-a-docker)|
+|[Conversion of Landing Page](#ab-testing-to-distinguish-impact-of-version-of-landing-page-on-user)|`A\B Testing`, `Z test` |`pandas`, `statsmodel`|[Click](https://github.com/erdiolmezogullari/ml-ab-testing)|
+|[Integration of Fashion MNIST (CNN) Model into Tensorboard and MLflow](#fashion-mnist-with-tensorboard-and-mlflow)|`CNN`, `Deep Learning` |`Keras`, `MLflow`, `Pandas`, `Sklearn`|[Click](https://github.com/erdiolmezogullari/ml-fmnist-mlflow-tensorboard)|
+|[Dockerize an Apache Flink Application through Docker](#dockerize-an-apache-flink-application)| `Apache Flink Table & SQL` |`Apache Flink Table & SQL`, `Docker`, `Docker-Compose`|[Click](https://github.com/erdiolmezogullari/de-flink-sql-as-a-docker)|
 |[Crawler as a Service](#crawler-as-a-service)| Searching (`DFS`, `BFS`) |`GO`, `Neo4j`, `Redis`, `Docker`, `Docker-Compose`|[Click](https://github.com/erdiolmezogullari/de-crawler-as-a-service)|
 |[Prediction Skip Action on Music Dataset](#prediction-skip-action)|`LightGBM`, `Linear Reg`, `Logistic Reg.`|`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/ml-prediction-skip-action)|
 |[Hairstyle Classification](#hairstyle-classification)|`LightGBM`, `TF-IDF` |`Sklearn`, `LightGBM`, `Pandas`, `Seaborn`|[Click](https://github.com/erdiolmezogullari/ml-hairstyle-classification)|
